@@ -1,0 +1,112 @@
+[data-page-id=Solution] {
+  padding-top: 52px;
+  padding-bottom: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+[data-elem-id=tS6sJ5OD9N] {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+[data-elem-id=Yu4hqCMEmi] {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+[data-elem-id=e3kUCT9TED] {
+  max-width: 1184px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 1184px;
+}
+
+[data-elem-id=KJ1PpiCk9L] {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  max-width: 224px;
+  width: 224px;
+  height: 280px;
+  max-height: 280px;
+  position: relative;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+[data-elem-id=e6TXmMHvxM] {
+  padding-top: 12px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  width: 224px;
+  height: 92px;
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  transition: height .2s ease-in-out;
+  background: linear-gradient(6.85deg,#3e3aff .52%,rgba(65,60,170,0) 236.49%);
+  overflow: hidden;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+[data-elem-id=tO1Q9XiHeo] {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  display: block;
+}
+
+[data-elem-id=JIb586HsQ6] {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+[data-elem-id=NhZowSFUcg] {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+[data-elem-id=cahlPEeiPM] {
+  width: 12px;
+  height: 12px;
+  display: block;
+  margin-left: 4px;
+}
+
+[data-elem-id=Xe1I8g1u9D] {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999;
+  text-align: center;
+}
+
+[data-elem-id=B9VU5KAyec] {
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-left: 4px;
+  position: absolute;
+  right: -20px;
+}

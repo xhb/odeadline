@@ -1,18 +1,21 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- ========== Meta Tags ========== -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="企业本地协作与管理一体机">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="企业本地协作与管理一体机" />
 
     <!-- ========== Page Title ========== -->
-    <title>企业本地协作与管理一体机</title>
+    <title>企业协作与管理一体机</title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -30,7 +33,7 @@
     <link href="assets/css/home.css" rel="stylesheet" />
     <link href="assets/css/common.css" rel="stylesheet" />
     <link href="assets/css/product.css" rel="stylesheet" />
-
+    <link href="assets/css/solution.css" rel="stylesheet" />
 
     <!-- ========== End Stylesheet ========== -->
 
@@ -40,1219 +43,1742 @@
       <script src="assets/js/html5/html5shiv.min.js"></script>
       <script src="assets/js/html5/respond.min.js"></script>
     <![endif]-->
+  </head>
 
-</head>
-
-<body>
-
-  <!-- Preloader Start -->
+  <body>
+    <!-- Preloader Start -->
     <div class="se-pre-con"></div>
     <!-- Preloader Ends -->
 
     <!-- Header 
     ============================================= -->
     <header>
-        <!-- Start Navigation -->
-        <nav class="navbar mobile-sidenav attr-border navbar-sticky navbar-default validnavs navbar-fixed dark no-background">
+      <!-- Start Navigation -->
+      <nav
+        class="navbar mobile-sidenav attr-border navbar-sticky navbar-default validnavs navbar-fixed dark no-background"
+      >
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <!-- Start Header Navigation -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#navbar-menu"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/odlogo-light.png" class="logo" alt="Logo" />
+            </a>
+          </div>
+          <!-- End Header Navigation -->
 
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <img src="assets/img/logo.png" alt="Logo" />
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#navbar-menu"
+            >
+              <i class="fa fa-times"></i>
+            </button>
 
-            <div class="container d-flex justify-content-between align-items-center">            
+            <ul
+              class="nav navbar-nav navbar-right"
+              data-in="fadeInDown"
+              data-out="fadeOutUp"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="dropdown-toggle active"
+                  data-toggle="dropdown"
+                  >产品</a
+                >
+              </li>
+              <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  >服务</a
+                >
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  >帮助</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="services-details.html">Services Details</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  >价格</a
+                >
+              </li>
+              <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                  >合作伙伴</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
 
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo.png" class="logo" alt="Logo">
-                    </a>
-                </div>
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-
-                    <img src="assets/img/logo.png" alt="Logo">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-times"></i>
-                    </button>
-
-                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li>
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >产品</a>
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >服务</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >帮助</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="services-details.html">Services Details</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >价格</a>
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >合作伙伴</a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-
-                <div class="attr-right">
-                    <!-- Start Atribute Navigation -->
-                    <div class="attr-nav">
-                        <ul>
-                            <li class="button"><a href="#">在线体验</a></li>
-                        </ul>
-                    </div>
-                    <!-- End Atribute Navigation -->
-                </div>
-
-                <!-- Main Nav -->
+          <div class="attr-right">
+            <!-- Start Atribute Navigation -->
+            <div class="attr-nav">
+              <ul>
+                <li class="button"><a href="#">在线体验</a></li>
+              </ul>
             </div>
-            <!-- Overlay screen for menu -->
-            <div class="overlay-screen"></div>
-            <!-- End Overlay screen for menu -->
-        </nav>
-        <!-- End Navigation -->
+            <!-- End Atribute Navigation -->
+          </div>
+
+          <!-- Main Nav -->
+        </div>
+        <!-- Overlay screen for menu -->
+        <div class="overlay-screen"></div>
+        <!-- End Overlay screen for menu -->
+      </nav>
+      <!-- End Navigation -->
     </header>
     <!-- End Header -->
 
-   <!-- Start Banner 
+    <!-- Start Banner 
     ============================================= -->
-    <div class="banner-area bg-top text-capitalized text-center top-pad-80 auto-height">
-        <!-- Shape -->
-        <div class="banner-shape" style="background-image: url(assets/img/shape/2.png);"></div>
-        <!-- End Shape -->
-        <div class="container">
-            <div class="content-box">
-                <div class="row align-center">
-                    <div class="col-lg-8 offset-lg-2 info">
-                        <h2 class="wow fadeInRight" data-wow-defaul="300ms">企业协作与管理一体机<strong>“oh,deadline是第一生产力”</strong></h2>
-                        <p class="wow fadeInLeft" data-wow-delay="500ms">
-                            简单易用好用、数据落地,不受大厂数据绑架、一次买断使用权,不支付订阅费、内网穿透,移动协同办公，全部功能集成在一体机，接上网线就能用!
-                        </p>
-                        <div class="button wow fadeInDown" data-wow-delay="700ms">
-                            <a href="https://www.youtube.com/watch?v=owhuBrGIOsE" class="popup-youtube video-btn"><i class="fas fa-play"></i>观看介绍</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="thumb-inner">
-                            <img class="wow fadeInRight" data-wow-delay="900ms" src="assets/img/task/1.png" alt="Thumb">
-                            <img class="wow fadeInLeft" data-wow-delay="1100ms" src="assets/img/task/2.png" alt="Thumb">
-                            <div class="shape-circle wow fadeInLeft" data-wow-delay="1500ms"></div>
-                        </div>
-                    </div>
-                </div>
+    <div
+      class="banner-area bg-top text-capitalized text-center top-pad-80 auto-height"
+    >
+      <!-- Shape -->
+      <div
+        class="banner-shape"
+        style="background-image: url(assets/img/shape/2.png)"
+      ></div>
+      <!-- End Shape -->
+      <div class="container">
+        <div class="content-box">
+          <div class="row align-center">
+            <div class="col-lg-8 offset-lg-2 info">
+              <h2 class="wow fadeInRight" data-wow-defaul="300ms">
+                企业协作与管理一体机<strong>“oh,deadline是第一生产力”</strong>
+              </h2>
+              <p class="wow fadeInLeft" data-wow-delay="500ms">
+                简单易用好用、数据落地,不受大厂数据绑架、一次买断使用权,不支付订阅费、内网穿透,移动协同办公，全部功能集成在一体机，接上网线就能用!
+              </p>
+              <div class="button wow fadeInDown" data-wow-delay="700ms">
+                <a
+                  href="https://www.youtube.com/watch?v=owhuBrGIOsE"
+                  class="popup-youtube video-btn"
+                  ><i class="fas fa-play"></i>观看介绍</a
+                >
+              </div>
             </div>
+            <div class="col-lg-12">
+              <div class="thumb-inner">
+                <img
+                  class="wow fadeInRight"
+                  data-wow-delay="900ms"
+                  src="assets/img/task/1.png"
+                  alt="Thumb"
+                />
+                <img
+                  class="wow fadeInLeft"
+                  data-wow-delay="1100ms"
+                  src="assets/img/task/2.png"
+                  alt="Thumb"
+                />
+                <div
+                  class="shape-circle wow fadeInLeft"
+                  data-wow-delay="1500ms"
+                ></div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- End Banner -->
 
     <!-- 主要述求 ============================================= -->
     <div class="software-feature-area default-padding">
-        <div class="container">
-            <div class="feature-items">
-                <div class="row align-center">
-                    <div class="col-lg-6 left-info">
-                        <h2>为什么选择 <br> 本地协作与管理一体机</h2>
-                        <p>
-                            Odeadline是一个企业协作与管理平台，支持Windows、macOS、iOS、Android、Linux等操作系统及网页端。主打一站式无缝办公协作，近期则专攻人工智能加速, 支持即时通讯、协同文档、云盘、邮箱、日历、视频会议、OKR、流程审批等功能。
-                        </p>
-                        <p>
-                            我们为中小企业提供，数据落地，一次买断，内外打通，好用且实用的高性价比企业协作与管理平台
-                        </p>
-                        <a class="btn circle btn-theme-effect btn-sm" href="#">查看定价</a>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="features-list">
-                            <!-- Single Itme -->
-                            <div class="item">
-                                <div class="icon">
-                                    <i class="fas fa-angle-right"></i>
-                                    <img src="assets/img/icon/analytics/data-science-3.png" alt="Icon">
-                                </div>
-                                <div class="content">
-                                    <h4>数据落地</h4>
-                                    <p>
-                                        文档,聊天记录,员工身份信息,等等全部办公数据保留在一体机中,物理上保证数据安全，不被大厂滥用。
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- End Single Itme -->
-                            <!-- Single Itme -->
-                            <div class="item">
-                                <div class="icon">
-                                    <i class="fas fa-angle-right"></i>
-                                    <img src="assets/img/icon/software/7.png" alt="Icon">
-                                </div>
-                                <div class="content">
-                                    <h4>一次买断</h4>
-                                    <p>
-                                        没有套路，不做先免费骗你使用，再用数据绑架你，最后再让你按年按人数订阅付费。
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- End Single Itme -->
-                            <!-- Single Itme -->
-                            <div class="item">
-                                <div class="icon">
-                                    <i class="fas fa-angle-right"></i>
-                                    <img src="assets/img/icon/analytics/data-analysis-4.png" alt="Icon">
-                                </div>
-                                <div class="content">
-                                    <h4>内外打通</h4>
-                                    <p>
-                                        一体机默认是完全可以离线工作的，也可以通过内网穿透服务，实现内外网移动办公，数据加密传输，安全落地.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- End Single Itme -->
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="feature-items">
+          <div class="row align-center">
+            <div class="col-lg-6 left-info">
+              <h2>
+                为什么选择 <br />
+                本地协作与管理一体机
+              </h2>
+              <p>
+                Odeadline是一个企业协作与管理平台，支持Windows、macOS、iOS、Android、Linux等操作系统及网页端。主打一站式无缝办公协作，近期则专攻人工智能加速,
+                支持即时通讯、协同文档、云盘、邮箱、日历、视频会议、OKR、流程审批等功能。
+              </p>
+              <p>
+                我们为中小企业提供，数据落地，一次买断，内外打通，好用且实用的高性价比企业协作与管理平台
+              </p>
+              <a class="btn circle btn-theme-effect btn-sm" href="#"
+                >查看定价</a
+              >
             </div>
+            <div class="col-lg-6">
+              <div class="features-list">
+                <!-- Single Itme -->
+                <div class="item">
+                  <div class="icon">
+                    <i class="fas fa-angle-right"></i>
+                    <img
+                      src="assets/img/icon/analytics/data-science-3.png"
+                      alt="Icon"
+                    />
+                  </div>
+                  <div class="content">
+                    <h4>数据落地</h4>
+                    <p>
+                      文档,聊天记录,员工身份信息,等等全部办公数据保留在一体机中,物理上保证数据安全，不被大厂滥用。
+                    </p>
+                  </div>
+                </div>
+                <!-- End Single Itme -->
+                <!-- Single Itme -->
+                <div class="item">
+                  <div class="icon">
+                    <i class="fas fa-angle-right"></i>
+                    <img src="assets/img/icon/software/7.png" alt="Icon" />
+                  </div>
+                  <div class="content">
+                    <h4>一次买断</h4>
+                    <p>
+                      没有套路，不做先免费骗你使用，再用数据绑架你，最后再让你按年按人数订阅付费。
+                    </p>
+                  </div>
+                </div>
+                <!-- End Single Itme -->
+                <!-- Single Itme -->
+                <div class="item">
+                  <div class="icon">
+                    <i class="fas fa-angle-right"></i>
+                    <img
+                      src="assets/img/icon/analytics/data-analysis-4.png"
+                      alt="Icon"
+                    />
+                  </div>
+                  <div class="content">
+                    <h4>内外打通</h4>
+                    <p>
+                      一体机默认是完全可以离线工作的，也可以通过内网穿透服务，实现内外网移动办公，数据加密传输，安全落地.
+                    </p>
+                  </div>
+                </div>
+                <!-- End Single Itme -->
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-
 
     <!-- 功能模块介绍
     ============================================= -->
-    <div id="features" class="advanced-features-area bg-theme default-padding bottom-less">
-        <!-- Shape -->
-        <div class="bottom-shape" style="background-image: url(assets/img/shape/24.png);"></div>
-        <!-- Shape -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-light text-center">
-                        <h2>功能模块</h2>
-                        <div class="devider"></div>
-                    </div>
-                </div>
+    <div
+      id="features"
+      class="advanced-features-area bg-theme default-padding bottom-less"
+    >
+      <!-- Shape -->
+      <div
+        class="bottom-shape"
+        style="background-image: url(assets/img/shape/24.png)"
+      ></div>
+      <!-- Shape -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="site-heading text-light text-center">
+              <h2>功能模块</h2>
+              <div class="devider"></div>
             </div>
+          </div>
         </div>
-        <div class="prooduct-con">
-            <ul class="prooduct-list">
-              <li>
-                  <i class="prev" onclick="prevHandle()">
-                      <img src="assets/dooimg/prev.svg" alt="一个产品，多种强大的工具">
-                  </i>
+      </div>
+      <div class="prooduct-con">
+        <ul class="prooduct-list">
+          <li>
+            <i class="prev" onclick="prevHandle()">
+              <img
+                src="assets/dooimg/prev.svg"
+                alt="一个产品，多种强大的工具"
+              />
+            </i>
+          </li>
+          <!-- 2个item -->
+          <li class="prooduct-list-item active top" style="--delay: 0s">
+            <img
+              class="icon first-icon"
+              src="assets/dooimg/product_icons0_h.svg"
+              alt="协同创作"
+            />
+            <h3 class="txt-4002025 txt first-txt">协同创作</h3>
+          </li>
+          <!-- 4个item -->
+          <li class="prooduct-list-item top" style="--delay: 0.1s">
+            <img
+              class="icon"
+              src="assets/dooimg/product_icons1.svg"
+              alt="即时沟通"
+            />
+            <h3 class="txt-4002025 txt">即时沟通</h3>
+          </li>
+          <!-- 4个item -->
+          <li class="prooduct-list-item top" style="--delay: 0.2s">
+            <img
+              class="icon"
+              src="assets/dooimg/product_icons2.svg"
+              alt="项目管理"
+            />
+            <h3 class="txt-4002025 txt">项目管理</h3>
+          </li>
+          <!-- 1个item -->
+          <li class="prooduct-list-item top" style="--delay: 0.3s">
+            <img
+              class="icon"
+              src="assets/dooimg/product_icons3.svg"
+              alt="任务仪表盘"
+            />
+            <h3 class="txt-4002025 txt">任务仪表盘</h3>
+          </li>
+          <!-- 2个item -->
+          <li class="prooduct-list-item top" style="--delay: 0.4s">
+            <img
+              class="icon"
+              src="assets/dooimg/product_icons4.svg"
+              alt="任务日历"
+            />
+            <h3 class="txt-4002025 txt">任务日历</h3>
+          </li>
+          <!-- 2个item -->
+          <li class="prooduct-list-item bot" style="--delay: 0.5s">
+            <img
+              class="icon"
+              src="assets/dooimg/product_icons5.svg"
+              alt="机器人助手"
+            />
+            <h3 class="txt-4002025 txt">机器人助手</h3>
+          </li>
+          <!-- 2个item -->
+          <li class="prooduct-list-item bot" style="--delay: 0.6s">
+            <img
+              class="icon"
+              src="assets/dooimg/product_icons6.svg"
+              alt="团队管理"
+            />
+            <h3 class="txt-4002025 txt">团队管理</h3>
+          </li>
+          <!-- 2个item -->
+          <li class="prooduct-list-item bot" style="--delay: 0.7s">
+            <img
+              class="icon"
+              src="assets/dooimg/product_icons7.svg"
+              alt="端到端加密"
+            />
+            <h3 class="txt-4002025 txt">端到端加密</h3>
+          </li>
+          <!-- 1个item -->
+          <li class="prooduct-list-item bot" style="--delay: 0.8s">
+            <img
+              class="icon"
+              src="assets/dooimg/product_icons8.svg"
+              alt="多平台应用"
+            />
+            <h3 class="txt-4002025 txt">多平台应用</h3>
+          </li>
+          <li>
+            <i class="next" onclick="nextHandle()">
+              <img
+                src="assets/dooimg/next.svg"
+                alt="一个产品，多种强大的工具"
+              />
+            </i>
+          </li>
+        </ul>
+        <ul class="prooduct-ul">
+          <li class="details active">
+            <div class="details-con">
+              <img
+                class="pic theme_light"
+                src="assets/dooimg/light/product_pic1.svg"
+                alt="团队协作无界限,不再是文件孤岛"
+              />
+              <img
+                class="pic theme_dark"
+                src="assets/dooimg/dark/product_pic1.svg"
+                alt="团队协作无界限,不再是文件孤岛"
+              />
+              <ul class="details-ul">
+                <li class="details-ul-item mb-36">
+                  <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    团队协作无界限
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    汇集文档、电子表格、思维笔记等多种在线工具，汇聚企业知识资源于一处，支持多人实时协同编辑，让团队协作更便捷。
+                  </h6>
+                </li>
+                <li class="details-ul-item">
+                  <h1 class="txt-7003645 serial-number mb-24">02</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    不再是文件孤岛
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    具有多种文件格式支持，团队内部文件共享，可控制的文件权限、历史版本追踪等，方便团队成员之间进行文件协作和讨论，提高工作效率。
+                  </h6>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="details">
+            <div class="details-con details-con-item4">
+              <img
+                class="pic theme_light"
+                src="assets/dooimg/light/product_pic2.svg"
+                alt="聚焦沟通高效交流,消息必达沟通无阻碍,云端同步查阅历史信息不受限,随时随地参会"
+              />
+              <img
+                class="pic theme_dark"
+                src="assets/dooimg/dark/product_pic2.svg"
+                alt="聚焦沟通高效交流,消息必达沟通无阻碍,云端同步查阅历史信息不受限,随时随地参会"
+              />
+              <ul class="details-ul item4">
+                <li class="details-ul-item mb-36">
+                  <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    聚焦沟通，高效交流
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    针对项目和任务建立群组，即时IM功能可以帮助团队成员之间实时沟通，在任务卡片中添加评论、附件、提醒等，促进团队快速协作，提高团队工作效率。
+                  </h6>
+                </li>
+                <li class="details-ul-item mb-36">
+                  <h1 class="txt-7003645 serial-number mb-24">02</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    消息必达沟通无阻碍
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    消息支持查看已读未读，未读消息通过官方邮件通知对方，高效传达。
+                  </h6>
+                </li>
+                <li class="details-ul-item">
+                  <h1 class="txt-7003645 serial-number mb-24">03</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    云端同步查阅历史信息不受限
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    信息多端同步，不丢失。新员工加入组织，支持查看聊天历史消息，无缝融入团队。
+                  </h6>
+                </li>
+                <li class="details-ul-item">
+                  <h1 class="txt-7003645 serial-number mb-24">04</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    随时随地参会
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    使用沟通群组视频会议，项目人员随时随地参会，提升线上会议便捷性，保证会议全程安全可控，有序进行。
+                  </h6>
+                </li>
+              </ul>
+            </div>
+            <ul class="details-ul-1280 item4-1280">
+              <li class="details-ul-item mb-40">
+                <img
+                  class="pic theme_light"
+                  src="assets/dooimg/light/product_pic2.svg"
+                  alt="聚焦沟通高效交流,消息必达沟通无阻碍,云端同步查阅历史信息不受限,随时随地参会"
+                />
+                <img
+                  class="pic theme_dark"
+                  src="assets/dooimg/dark/product_pic2.svg"
+                  alt="聚焦沟通高效交流,消息必达沟通无阻碍,云端同步查阅历史信息不受限,随时随地参会"
+                />
               </li>
-              <!-- 2个item -->
-              <li class="prooduct-list-item active top" style="--delay: 0s;">
-                <img class="icon first-icon" src="assets/dooimg/product_icons0_h.svg" alt="协同创作">
-                <h3 class="txt-4002025 txt first-txt">协同创作</h3>
+              <li class="details-ul-item mb-36">
+                <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                  聚焦沟通，高效交流
+                </h5>
+                <h6 class="txt-4001624 choose-con-item-h6">
+                  针对项目和任务建立群组，即时IM功能可以帮助团队成员之间实时沟通，在任务卡片中添加评论、附件、提醒等，促进团队快速协作，提高团队工作效率。
+                </h6>
               </li>
-              <!-- 4个item -->
-              <li class="prooduct-list-item top" style="--delay: 0.1s;">
-                <img class="icon" src="assets/dooimg/product_icons1.svg" alt="即时沟通">
-                <h3 class="txt-4002025 txt">即时沟通</h3>
+              <li class="details-ul-item mb-36">
+                <h1 class="txt-7003645 serial-number mb-24">02</h1>
+                <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                  消息必达沟通无阻碍
+                </h5>
+                <h6 class="txt-4001624 choose-con-item-h6">
+                  消息支持查看已读未读，未读消息通过官方邮件通知对方，高效传达。
+                </h6>
               </li>
-              <!-- 4个item -->
-              <li class="prooduct-list-item top" style="--delay: 0.2s;">
-                <img class="icon" src="assets/dooimg/product_icons2.svg" alt="项目管理">
-                <h3 class="txt-4002025 txt">项目管理</h3>
+              <li class="details-ul-item">
+                <h1 class="txt-7003645 serial-number mb-24">03</h1>
+                <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                  云端同步查阅历史信息不受限
+                </h5>
+                <h6 class="txt-4001624 choose-con-item-h6">
+                  信息多端同步，不丢失。新员工加入组织，支持查看聊天历史消息，无缝融入团队。
+                </h6>
               </li>
-              <!-- 1个item -->
-              <li class="prooduct-list-item top" style="--delay: 0.3s;">
-                <img class="icon" src="assets/dooimg/product_icons3.svg" alt="任务仪表盘">
-                <h3 class="txt-4002025 txt">任务仪表盘</h3>
-              </li>
-              <!-- 2个item -->
-              <li class="prooduct-list-item top" style="--delay: 0.4s;">
-                <img class="icon" src="assets/dooimg/product_icons4.svg" alt="任务日历">
-                <h3 class="txt-4002025 txt">任务日历</h3>
-              </li>
-              <!-- 2个item -->
-              <li class="prooduct-list-item bot" style="--delay: 0.5s;">
-                <img class="icon" src="assets/dooimg/product_icons5.svg" alt="机器人助手">
-                <h3 class="txt-4002025 txt">机器人助手</h3>
-              </li>
-              <!-- 2个item -->
-              <li class="prooduct-list-item bot" style="--delay: 0.6s;">
-                <img class="icon" src="assets/dooimg/product_icons6.svg" alt="团队管理">
-                <h3 class="txt-4002025 txt">团队管理</h3>
-              </li>
-              <!-- 2个item -->
-              <li class="prooduct-list-item bot" style="--delay: 0.7s;">
-                <img class="icon" src="assets/dooimg/product_icons7.svg" alt="端到端加密">
-                <h3 class="txt-4002025 txt">端到端加密</h3>
-              </li>
-              <!-- 1个item -->
-              <li class="prooduct-list-item bot" style="--delay: 0.8s;">
-                <img class="icon" src="assets/dooimg/product_icons8.svg" alt="多平台应用">
-                <h3 class="txt-4002025 txt">多平台应用</h3>
-              </li>
-              <li>
-                <i class="next" onclick="nextHandle()">
-                  <img src="assets/dooimg/next.svg" alt="一个产品，多种强大的工具">
-                </i>
+              <li class="details-ul-item">
+                <h1 class="txt-7003645 serial-number mb-24">04</h1>
+                <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                  随时随地参会
+                </h5>
+                <h6 class="txt-4001624 choose-con-item-h6">
+                  使用沟通群组视频会议，项目人员随时随地参会，提升线上会议便捷性，保证会议全程安全可控，有序进行。
+                </h6>
               </li>
             </ul>
-            <ul class="prooduct-ul">
-              <li class="details active">
-                <div class="details-con">
-                  <img class="pic theme_light" src="assets/dooimg/light/product_pic1.svg" alt="团队协作无界限,不再是文件孤岛">
-                  <img class="pic theme_dark" src="assets/dooimg/dark/product_pic1.svg" alt="团队协作无界限,不再是文件孤岛">
-                  <ul class="details-ul">
-                    <li class="details-ul-item mb-36">
-                      <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">团队协作无界限</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">汇集文档、电子表格、思维笔记等多种在线工具，汇聚企业知识资源于一处，支持多人实时协同编辑，让团队协作更便捷。</h6>
-                    </li>
-                    <li class="details-ul-item">
-                      <h1 class="txt-7003645 serial-number mb-24">02</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">不再是文件孤岛</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">具有多种文件格式支持，团队内部文件共享，可控制的文件权限、历史版本追踪等，方便团队成员之间进行文件协作和讨论，提高工作效率。</h6>
-                    </li>
-                  </ul>
-                </div>
+          </li>
+          <li class="details">
+            <div class="details-con details-con-item4">
+              <img
+                class="pic theme_light"
+                src="assets/dooimg/light/product_pic3.svg"
+                alt="多样式管理模版,关联文件一键归档,项目化办公，行动可视化,动态管理，实时监控"
+              />
+              <img
+                class="pic theme_dark"
+                src="assets/dooimg/dark/product_pic3.svg"
+                alt="多样式管理模版,关联文件一键归档,项目化办公，行动可视化,动态管理，实时监控"
+              />
+              <ul class="details-ul item4">
+                <li class="details-ul-item mb-36">
+                  <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    多样式管理模版
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    模版满足多种团队协作场景，同时支持自定义模版，满足团队个性化场景管理需求，可直观的查看项目的进展情况，团队协作更方便。
+                  </h6>
+                </li>
+                <li class="details-ul-item mb-36">
+                  <h1 class="txt-7003645 serial-number mb-24">02</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    项目化办公，行动可视化
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    使用看板、表格、列表等多种视图让整体项目一目了然；成员可对任务灵活筛选、排序和分组，让要事优先，并保持专注。
+                  </h6>
+                </li>
+                <li class="details-ul-item">
+                  <h1 class="txt-7003645 serial-number mb-24">03</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    动态管理，实时监控
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    实时变更项目动态，具体任务变更情况记录提醒，以便团队把控项目整体进程，制定相应计划。
+                  </h6>
+                </li>
+                <li class="details-ul-item">
+                  <h1 class="txt-7003645 serial-number mb-24">04</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    关联文件一键归档
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    项目及相关任务文件自动归档储存，便于之后查阅使用。
+                  </h6>
+                </li>
+              </ul>
+            </div>
+            <ul class="details-ul-1280 item4-1280">
+              <li class="details-ul-item mb-40">
+                <img
+                  class="pic theme_light"
+                  src="assets/dooimg/light/product_pic3.svg"
+                  alt="多样式管理模版,关联文件一键归档,项目化办公，行动可视化,动态管理，实时监控"
+                />
+                <img
+                  class="pic theme_dark"
+                  src="assets/dooimg/dark/product_pic3.svg"
+                  alt="多样式管理模版,关联文件一键归档,项目化办公，行动可视化,动态管理，实时监控"
+                />
               </li>
-              <li class="details">
-                <div class="details-con details-con-item4">
-                  <img class="pic theme_light" src="assets/dooimg/light/product_pic2.svg" alt="聚焦沟通高效交流,消息必达沟通无阻碍,云端同步查阅历史信息不受限,随时随地参会">
-                  <img class="pic theme_dark" src="assets/dooimg/dark/product_pic2.svg" alt="聚焦沟通高效交流,消息必达沟通无阻碍,云端同步查阅历史信息不受限,随时随地参会">
-                  <ul class="details-ul item4">
-                    <li class="details-ul-item mb-36">
-                      <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">聚焦沟通，高效交流</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">针对项目和任务建立群组，即时IM功能可以帮助团队成员之间实时沟通，在任务卡片中添加评论、附件、提醒等，促进团队快速协作，提高团队工作效率。</h6>
-                    </li>
-                    <li class="details-ul-item mb-36">
-                      <h1 class="txt-7003645 serial-number mb-24">02</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">消息必达沟通无阻碍</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">消息支持查看已读未读，未读消息通过官方邮件通知对方，高效传达。</h6>
-                    </li>
-                    <li class="details-ul-item">
-                      <h1 class="txt-7003645 serial-number mb-24">03</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">云端同步查阅历史信息不受限</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">信息多端同步，不丢失。新员工加入组织，支持查看聊天历史消息，无缝融入团队。</h6>
-                    </li>
-                    <li class="details-ul-item">
-                      <h1 class="txt-7003645 serial-number mb-24">04</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">随时随地参会</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">使用沟通群组视频会议，项目人员随时随地参会，提升线上会议便捷性，保证会议全程安全可控，有序进行。</h6>
-                    </li>
-                  </ul>
-                </div>
-                <ul class="details-ul-1280 item4-1280">
-                  <li class="details-ul-item mb-40">
-                    <img class="pic theme_light" src="assets/dooimg/light/product_pic2.svg" alt="聚焦沟通高效交流,消息必达沟通无阻碍,云端同步查阅历史信息不受限,随时随地参会">
-                    <img class="pic theme_dark" src="assets/dooimg/dark/product_pic2.svg" alt="聚焦沟通高效交流,消息必达沟通无阻碍,云端同步查阅历史信息不受限,随时随地参会">
-                  </li>
-                  <li class="details-ul-item mb-36">
-                    <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">聚焦沟通，高效交流</h5>
-                    <h6 class="txt-4001624 choose-con-item-h6">针对项目和任务建立群组，即时IM功能可以帮助团队成员之间实时沟通，在任务卡片中添加评论、附件、提醒等，促进团队快速协作，提高团队工作效率。</h6>
-                  </li>
-                  <li class="details-ul-item mb-36">
-                    <h1 class="txt-7003645 serial-number mb-24">02</h1>
-                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">消息必达沟通无阻碍</h5>
-                    <h6 class="txt-4001624 choose-con-item-h6">消息支持查看已读未读，未读消息通过官方邮件通知对方，高效传达。</h6>
-                  </li>
-                  <li class="details-ul-item">
-                    <h1 class="txt-7003645 serial-number mb-24">03</h1>
-                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">云端同步查阅历史信息不受限</h5>
-                    <h6 class="txt-4001624 choose-con-item-h6">信息多端同步，不丢失。新员工加入组织，支持查看聊天历史消息，无缝融入团队。</h6>
-                  </li>
-                  <li class="details-ul-item">
-                    <h1 class="txt-7003645 serial-number mb-24">04</h1>
-                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">随时随地参会</h5>
-                    <h6 class="txt-4001624 choose-con-item-h6">使用沟通群组视频会议，项目人员随时随地参会，提升线上会议便捷性，保证会议全程安全可控，有序进行。</h6>
-                  </li>
-                </ul>
+              <li class="details-ul-item mb-36">
+                <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                  多样式管理模版
+                </h5>
+                <h6 class="txt-4001624 choose-con-item-h6">
+                  模版满足多种团队协作场景，同时支持自定义模版，满足团队个性化场景管理需求，可直观的查看项目的进展情况，团队协作更方便。
+                </h6>
               </li>
-              <li class="details">
-                <div class="details-con details-con-item4">
-                  <img class="pic theme_light" src="assets/dooimg/light/product_pic3.svg" alt="多样式管理模版,关联文件一键归档,项目化办公，行动可视化,动态管理，实时监控">
-                  <img class="pic theme_dark" src="assets/dooimg/dark/product_pic3.svg" alt="多样式管理模版,关联文件一键归档,项目化办公，行动可视化,动态管理，实时监控">
-                  <ul class="details-ul item4">
-                    <li class="details-ul-item mb-36">
-                      <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">多样式管理模版</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">模版满足多种团队协作场景，同时支持自定义模版，满足团队个性化场景管理需求，可直观的查看项目的进展情况，团队协作更方便。</h6>
-                    </li>
-                    <li class="details-ul-item mb-36">
-                      <h1 class="txt-7003645 serial-number mb-24">02</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">项目化办公，行动可视化</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">使用看板、表格、列表等多种视图让整体项目一目了然；成员可对任务灵活筛选、排序和分组，让要事优先，并保持专注。</h6>
-                    </li>
-                    <li class="details-ul-item">
-                      <h1 class="txt-7003645 serial-number mb-24">03</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">动态管理，实时监控</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">实时变更项目动态，具体任务变更情况记录提醒，以便团队把控项目整体进程，制定相应计划。</h6>
-                    </li>
-                    <li class="details-ul-item">
-                      <h1 class="txt-7003645 serial-number mb-24">04</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">关联文件一键归档</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">项目及相关任务文件自动归档储存，便于之后查阅使用。</h6>
-                    </li>
-                  </ul>
-                </div>
-                <ul class="details-ul-1280 item4-1280">
-                  <li class="details-ul-item mb-40">
-                    <img class="pic theme_light" src="assets/dooimg/light/product_pic3.svg" alt="多样式管理模版,关联文件一键归档,项目化办公，行动可视化,动态管理，实时监控">
-                    <img class="pic theme_dark" src="assets/dooimg/dark/product_pic3.svg" alt="多样式管理模版,关联文件一键归档,项目化办公，行动可视化,动态管理，实时监控">
-                  </li>
-                  <li class="details-ul-item mb-36">
-                    <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">多样式管理模版</h5>
-                    <h6 class="txt-4001624 choose-con-item-h6">模版满足多种团队协作场景，同时支持自定义模版，满足团队个性化场景管理需求，可直观的查看项目的进展情况，团队协作更方便。</h6>
-                  </li>
-                  <li class="details-ul-item mb-36">
-                    <h1 class="txt-7003645 serial-number mb-24">02</h1>
-                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">项目化办公，行动可视化</h5>
-                    <h6 class="txt-4001624 choose-con-item-h6">使用看板、表格、列表等多种视图让整体项目一目了然；成员可对任务灵活筛选、排序和分组，让要事优先，并保持专注。</h6>
-                  </li>
-                  <li class="details-ul-item">
-                    <h1 class="txt-7003645 serial-number mb-24">03</h1>
-                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">动态管理，实时监控</h5>
-                    <h6 class="txt-4001624 choose-con-item-h6">实时变更项目动态，具体任务变更情况记录提醒，以便团队把控项目整体进程，制定相应计划。</h6>
-                  </li>
-                  <li class="details-ul-item">
-                    <h1 class="txt-7003645 serial-number mb-24">04</h1>
-                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">关联文件一键归档</h5>
-                    <h6 class="txt-4001624 choose-con-item-h6">项目及相关任务文件自动归档储存，便于之后查阅使用。</h6>
-                  </li>
-                </ul>
+              <li class="details-ul-item mb-36">
+                <h1 class="txt-7003645 serial-number mb-24">02</h1>
+                <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                  项目化办公，行动可视化
+                </h5>
+                <h6 class="txt-4001624 choose-con-item-h6">
+                  使用看板、表格、列表等多种视图让整体项目一目了然；成员可对任务灵活筛选、排序和分组，让要事优先，并保持专注。
+                </h6>
               </li>
-              <li class="details">
-                <div class="details-con">
-                  <img class="pic theme_light" src="assets/dooimg/light/product_pic4.svg" alt="全面洞悉任务数据">
-                  <img class="pic theme_dark" src="assets/dooimg/dark/product_pic4.svg" alt="全面洞悉任务数据">
-                  <ul class="details-ul">
-                    <li class="details-ul-item" style="margin-bottom: 36px;">
-                      <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">全面洞悉任务数据</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">任务仪表盘内展示任务状态分类统计，便于个人掌握任务进度，合理安排和规划工作，提高工作效率。</h6>
-                    </li>
-                  </ul>
-                </div>
+              <li class="details-ul-item">
+                <h1 class="txt-7003645 serial-number mb-24">03</h1>
+                <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                  动态管理，实时监控
+                </h5>
+                <h6 class="txt-4001624 choose-con-item-h6">
+                  实时变更项目动态，具体任务变更情况记录提醒，以便团队把控项目整体进程，制定相应计划。
+                </h6>
               </li>
-              <li class="details">
-                <div class="details-con">
-                  <img class="pic theme_light" src="assets/dooimg/light/product_pic5.svg" alt="精准掌握时间进度,多款日历视图">
-                  <img class="pic theme_dark" src="assets/dooimg/dark/product_pic5.svg" alt="精准掌握时间进度,多款日历视图">
-                  <ul class="details-ul">
-                    <li class="details-ul-item mb-36">
-                      <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">精准掌握时间进度</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">展现各项工作的日程排期，让工作任务一目了然，更好的平衡工作和生活。</h6>
-                    </li>
-                    <li class="details-ul-item">
-                      <h1 class="txt-7003645 serial-number mb-24">02</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">多款日历视图</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">提供月/周/日等多款日历视图，便捷切换；支持按使用目的创建多个日历，自定义可见范围和颜色标识，让日程分类展示。</h6>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="details">
-                <div class="details-con">
-                  <img class="pic theme_light" src="assets/dooimg/light/product_pic6.svg" alt="智能提示，让科技贴近生活">
-                  <img class="pic theme_dark" src="assets/dooimg/dark/product_pic6.svg" alt="智能提示，让科技贴近生活">
-                  <ul class="details-ul">
-                    <li class="details-ul-item mb-36">
-                      <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">智能提示，让科技贴近生活</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">智能机器人可对员工日常签到打卡、任务提醒、推送最新咨询消息等进行服务，帮用户实现有效的工作进度管理及时间规划。</h6>
-                    </li>
-                    <li class="details-ul-item">
-                      <h1 class="txt-7003645 serial-number mb-24">02</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">人工智能，实现与AI实时交流</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">聪明的小海豚，基于人工智能技术的语言处理工具，能够通过学习和理解人类的语言来进行对话，实时交流，全面掌握各种文字信息，极大提高工作的便捷性。</h6>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="details">
-                <div class="details-con">
-                  <img class="pic theme_light" src="assets/dooimg/light/product_pic7.svg" alt="全面提升层级化组织效能,多功能协助企业管理团队">
-                  <img class="pic theme_dark" src="assets/dooimg/dark/product_pic7.svg" alt="全面提升层级化组织效能,多功能协助企业管理团队">
-                  <ul class="details-ul">
-                    <li class="details-ul-item mb-36">
-                      <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">全面提升层级化组织效能</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">管理人员可在后台设置公司人员架构，形成完整团队形态，便于对项目和相关任务进行分级协同管理。</h6>
-                    </li>
-                    <li class="details-ul-item">
-                      <h1 class="txt-7003645 serial-number mb-24">02</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">多功能协助企业管理团队</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">提供日常工作报告编辑汇总，项目及任务数据汇总统计，多种功能协助企业管理团队和项目，提高公司管理效率和管理水平。</h6>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="details">
-                <div class="details-con">
-                  <img class="pic theme_light" src="assets/dooimg/light/product_pic8.svg" alt="掌控加密密钥，保障安全可靠">
-                  <img class="pic theme_dark" src="assets/dooimg/dark/product_pic8.svg" alt="数据分类加密，实现安全同步">
-                  <ul class="details-ul">
-                    <li class="details-ul-item mb-36">
-                      <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">掌控加密密钥，保障安全可靠</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">使用端到端加密技术，确保用户的数据只能由他们自己解密。这意味着即使黑客入侵了DooTask的服务器，也无法访问用户的数据。</h6>
-                    </li>
-                    <li class="details-ul-item">
-                      <h1 class="txt-7003645 serial-number mb-24">02</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">数据分类加密，实现安全同步</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">使用分类加密技术，用户可以在多个设备间同步其任务和文件，不必担心数据被窃取或篡改。</h6>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="details">
-                <div class="details-con">
-                  <img class="pic theme_light" src="assets/dooimg/light/product_pic9.svg" alt="多平台应用">
-                  <img class="pic theme_dark" src="assets/dooimg/dark/product_pic9.svg" alt="多平台应用">
-                  <ul class="details-ul">
-                    <li class="details-ul-item">
-                      <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                      <h5 class="txt-5002025 mb-16 choose-con-item-h5">多平台应用</h5>
-                      <h6 class="txt-4001624 choose-con-item-h6">多平台应用支持，随时随地追踪项目进度，同时让你在工作中每一个步骤都能拥有更高效愉悦的体验。</h6>
-                    </li>
-                  </ul>
-                </div>
+              <li class="details-ul-item">
+                <h1 class="txt-7003645 serial-number mb-24">04</h1>
+                <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                  关联文件一键归档
+                </h5>
+                <h6 class="txt-4001624 choose-con-item-h6">
+                  项目及相关任务文件自动归档储存，便于之后查阅使用。
+                </h6>
               </li>
             </ul>
-        </div>
+          </li>
+          <li class="details">
+            <div class="details-con">
+              <img
+                class="pic theme_light"
+                src="assets/dooimg/light/product_pic4.svg"
+                alt="全面洞悉任务数据"
+              />
+              <img
+                class="pic theme_dark"
+                src="assets/dooimg/dark/product_pic4.svg"
+                alt="全面洞悉任务数据"
+              />
+              <ul class="details-ul">
+                <li class="details-ul-item" style="margin-bottom: 36px">
+                  <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    全面洞悉任务数据
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    任务仪表盘内展示任务状态分类统计，便于个人掌握任务进度，合理安排和规划工作，提高工作效率。
+                  </h6>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="details">
+            <div class="details-con">
+              <img
+                class="pic theme_light"
+                src="assets/dooimg/light/product_pic5.svg"
+                alt="精准掌握时间进度,多款日历视图"
+              />
+              <img
+                class="pic theme_dark"
+                src="assets/dooimg/dark/product_pic5.svg"
+                alt="精准掌握时间进度,多款日历视图"
+              />
+              <ul class="details-ul">
+                <li class="details-ul-item mb-36">
+                  <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    精准掌握时间进度
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    展现各项工作的日程排期，让工作任务一目了然，更好的平衡工作和生活。
+                  </h6>
+                </li>
+                <li class="details-ul-item">
+                  <h1 class="txt-7003645 serial-number mb-24">02</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    多款日历视图
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    提供月/周/日等多款日历视图，便捷切换；支持按使用目的创建多个日历，自定义可见范围和颜色标识，让日程分类展示。
+                  </h6>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="details">
+            <div class="details-con">
+              <img
+                class="pic theme_light"
+                src="assets/dooimg/light/product_pic6.svg"
+                alt="智能提示，让科技贴近生活"
+              />
+              <img
+                class="pic theme_dark"
+                src="assets/dooimg/dark/product_pic6.svg"
+                alt="智能提示，让科技贴近生活"
+              />
+              <ul class="details-ul">
+                <li class="details-ul-item mb-36">
+                  <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    智能提示，让科技贴近生活
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    智能机器人可对员工日常签到打卡、任务提醒、推送最新咨询消息等进行服务，帮用户实现有效的工作进度管理及时间规划。
+                  </h6>
+                </li>
+                <li class="details-ul-item">
+                  <h1 class="txt-7003645 serial-number mb-24">02</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    人工智能，实现与AI实时交流
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    聪明的小海豚，基于人工智能技术的语言处理工具，能够通过学习和理解人类的语言来进行对话，实时交流，全面掌握各种文字信息，极大提高工作的便捷性。
+                  </h6>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="details">
+            <div class="details-con">
+              <img
+                class="pic theme_light"
+                src="assets/dooimg/light/product_pic7.svg"
+                alt="全面提升层级化组织效能,多功能协助企业管理团队"
+              />
+              <img
+                class="pic theme_dark"
+                src="assets/dooimg/dark/product_pic7.svg"
+                alt="全面提升层级化组织效能,多功能协助企业管理团队"
+              />
+              <ul class="details-ul">
+                <li class="details-ul-item mb-36">
+                  <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    全面提升层级化组织效能
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    管理人员可在后台设置公司人员架构，形成完整团队形态，便于对项目和相关任务进行分级协同管理。
+                  </h6>
+                </li>
+                <li class="details-ul-item">
+                  <h1 class="txt-7003645 serial-number mb-24">02</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    多功能协助企业管理团队
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    提供日常工作报告编辑汇总，项目及任务数据汇总统计，多种功能协助企业管理团队和项目，提高公司管理效率和管理水平。
+                  </h6>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="details">
+            <div class="details-con">
+              <img
+                class="pic theme_light"
+                src="assets/dooimg/light/product_pic8.svg"
+                alt="掌控加密密钥，保障安全可靠"
+              />
+              <img
+                class="pic theme_dark"
+                src="assets/dooimg/dark/product_pic8.svg"
+                alt="数据分类加密，实现安全同步"
+              />
+              <ul class="details-ul">
+                <li class="details-ul-item mb-36">
+                  <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    掌控加密密钥，保障安全可靠
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    使用端到端加密技术，确保用户的数据只能由他们自己解密。这意味着即使黑客入侵了DooTask的服务器，也无法访问用户的数据。
+                  </h6>
+                </li>
+                <li class="details-ul-item">
+                  <h1 class="txt-7003645 serial-number mb-24">02</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    数据分类加密，实现安全同步
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    使用分类加密技术，用户可以在多个设备间同步其任务和文件，不必担心数据被窃取或篡改。
+                  </h6>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="details">
+            <div class="details-con">
+              <img
+                class="pic theme_light"
+                src="assets/dooimg/light/product_pic9.svg"
+                alt="多平台应用"
+              />
+              <img
+                class="pic theme_dark"
+                src="assets/dooimg/dark/product_pic9.svg"
+                alt="多平台应用"
+              />
+              <ul class="details-ul">
+                <li class="details-ul-item">
+                  <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    多平台应用
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    多平台应用支持，随时随地追踪项目进度，同时让你在工作中每一个步骤都能拥有更高效愉悦的体验。
+                  </h6>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <!-- 使用场景区域 -->
     <div class="usecard">
-        <div class="card-con">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="site-heading text-center">
-                            <h2>使用场景</h2>
-                            <div class="devider"></div>
-                        </div>
-                    </div>
-                </div>
+      <div class="card-con">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="site-heading text-center">
+                <h2>使用场景</h2>
+                <div class="devider"></div>
+              </div>
             </div>
-            <div class="card-con-layout">
-            <ul class="card-ul">
-                <li class="card-ul-item active">
-                <img class="icon" src="assets/dooimg/home_icon1.svg" alt="项目管理">
-                <div class="card-ul-item-unfolded">
-                    <h3 class="txt-5002025 card-ul-item-h3">项目管理</h3>
-                    <img class="arrows" src="assets/dooimg/vector.svg" alt="项目管理">
-                </div>
-                <div class="card-ul-item-expand" >
-                    <div class="card-ul-item-expand-tit">
-                    <h3 class="txt-5002025 card-ul-item-h3">项目管理</h3>
-                    <img class="arrows" src="assets/dooimg/vector.svg" alt="支持多种项目管理模式，适用于各种规模和类型的项目管理，实时掌控项目进度，优化工作流程。">
-                    </div>
-                    <i class="txt-4001624 card-ul-item-txt" style="--delay: 0.3s;">支持多种项目管理模式，适用于各种规模和类型的项目管理，实时掌控项目进度，优化工作流程。</i>
-                </div>
-                </li>
-                <li class="card-ul-item">
-                <img class="icon" src="assets/dooimg/home_icon2.svg" alt="团队协作">
-                <div class="card-ul-item-unfolded">
-                    <h3 class="txt-5002025 card-ul-item-h3">团队协作</h3>
-                    <img class="arrows" src="assets/dooimg/vector.svg" alt="团队协作">
-                </div>
-                <div class="card-ul-item-expand">
-                    <div class="card-ul-item-expand-tit">
-                    <h3 class="txt-5002025 card-ul-item-h3">团队协作</h3>
-                    <img class="arrows" src="assets/dooimg/vector.svg" alt="提供丰富实用的在线文档协作工具，方便团队成员之间的沟通和协作，提高工作效率。">
-                    </div>
-                    <i class="txt-4001624 card-ul-item-txt" style="--delay: 0.3s;">提供丰富实用的在线文档协作工具，方便团队成员之间的沟通和协作，提高工作效率。</i>
-                </div>
-                </li>
-                <li class="card-ul-item">
-                <img class="icon" src="assets/dooimg/home_icon3.svg" alt="任务协同">
-                <div class="card-ul-item-unfolded">
-                    <h3 class="txt-5002025 card-ul-item-h3">任务协同</h3>
-                    <img class="arrows" src="assets/dooimg/vector.svg" alt="任务协同">
-                </div>
-                <div class="card-ul-item-expand">
-                    <div class="card-ul-item-expand-tit">
-                    <h3 class="txt-5002025 card-ul-item-h3">任务协同</h3>
-                    <img class="arrows" src="assets/dooimg/vector.svg" alt="以任务化的方式让团队的工作井井有条，保证团队协作的高效性和任务分工的明确性。">
-                    </div>
-                    <i class="txt-4001624 card-ul-item-txt" style="--delay: 0.3s;">以任务化的方式让团队的工作井井有条，保证团队协作的高效性和任务分工的明确性。</i>
-                </div>
-                </li>
-                <li class="card-ul-item">
-                <img class="icon" src="assets/dooimg/home_icon4.svg" alt="绩效衡量">
-                <div class="card-ul-item-unfolded">
-                    <h3 class="txt-5002025 card-ul-item-h3">绩效衡量</h3>
-                    <img class="arrows" src="assets/dooimg/vector.svg" alt="绩效衡量">
-                </div>
-                <div class="card-ul-item-expand">
-                    <div class="card-ul-item-expand-tit">
-                    <h3 class="txt-5002025 card-ul-item-h3">绩效衡量</h3>
-                    <img class="arrows" src="assets/dooimg/vector.svg" alt="建立可量化的评价标准，数据化呈现工作成效，凝聚核心人才。">
-                    </div>
-                    <i class="txt-4001624 card-ul-item-txt" style="--delay: 0.3s;">建立可量化的评价标准，数据化呈现工作成效，凝聚核心人才。</i>
-                </div>
-                </li>
-                <li class="card-ul-item">
-                <img class="icon" src="assets/dooimg/home_icon5.svg" alt="沟通汇报">
-                <div class="card-ul-item-unfolded">
-                    <h3 class="txt-5002025 card-ul-item-h3">沟通汇报</h3>
-                    <img class="arrows" src="assets/dooimg/vector.svg" alt="沟通汇报">
-                </div>
-                <div class="card-ul-item-expand">
-                    <div class="card-ul-item-expand-tit">
-                    <h3 class="txt-5002025 card-ul-item-h3">沟通汇报</h3>
-                    <img class="arrows" src="assets/dooimg/vector.svg" alt="基于工作场景的即时通讯及共享，实现更好的团队沟通。">
-                    </div>
-                    <i class="txt-4001624 card-ul-item-txt" style="--delay: 0.3s;">基于工作场景的即时通讯及共享，实现更好的团队沟通。</i>
-                </div>
-                </li>
-            </ul>
-            <img class="card-pic" id="home_pic2" src="assets/dooimg/light/zh_home_pic2.png" alt="支持多种项目管理模式，适用于各种规模和类型的项目管理，实时掌控项目进度，优化工作流程。">
-            </div>
+          </div>
         </div>
-        <div class="card-con-768">
-            <h1 class="txt-5002228 card-h1 mb-32">使用场景</h1>
-            <div class="card-con-layout">
-            <ul class="card-768-ul">
-                <li style="width: 100%;">
-                <img class="icon" src="assets/dooimg/home_icon1.svg" alt="项目管理">
-                <h3 class="txt-5001822 card-ul-item-h3 mb-12">项目管理</h3>
-                <i class="txt-4001524 card-ul-item-txt mb-16">支持多种项目管理模式，适用于各种规模和类型的项目管理，实时掌控项目进度，优化工作流程。</i>
-                <img class="card-pic mb-40" id="home_pic2" src="assets/dooimg/light/zh_home_pic2.png" alt="支持多种项目管理模式，适用于各种规模和类型的项目管理，实时掌控项目进度，优化工作流程。">
-                </li>
-                <li style="width: 100%;">
-                <img class="icon" src="assets/dooimg/home_icon2.svg" alt="团队协作">
-                <h3 class="txt-5001822 card-ul-item-h3 mb-12">团队协作</h3>
-                <i class="txt-4001524 card-ul-item-txt mb-16">提供丰富实用的在线文档协作工具，方便团队成员之间的沟通和协作，提高工作效率。</i>
-                <img class="card-pic mb-40" id="home_pic3" src="assets/dooimg/light/zh_home_pic3.png" alt="提供丰富实用的在线文档协作工具，方便团队成员之间的沟通和协作，提高工作效率。">
-                </li>
-                <li style="width: 100%;">
-                <img class="icon" src="assets/dooimg/home_icon3.svg" alt="任务协同">
-                <h3 class="txt-5001822 card-ul-item-h3 mb-12">任务协同</h3>
-                <i class="txt-4001524 card-ul-item-txt mb-16">以任务化的方式让团队的工作井井有条，保证团队协作的高效性和任务分工的明确性。</i>
-                <img class="card-pic mb-40" id="home_pic4" src="assets/dooimg/light/zh_home_pic4.png" alt="以任务化的方式让团队的工作井井有条，保证团队协作的高效性和任务分工的明确性。">
-                </li>
-                <li style="width: 100%;">
-                <img class="icon" src="assets/dooimg/home_icon4.svg" alt="绩效衡量">
-                <h3 class="txt-5001822 card-ul-item-h3 mb-12">绩效衡量</h3>
-                <i class="txt-4001524 card-ul-item-txt mb-16">建立可量化的评价标准，数据化呈现工作成效，凝聚核心人才。</i>
-                <img class="card-pic mb-40" id="home_pic5" src="assets/dooimg/light/zh_home_pic5.png" alt="建立可量化的评价标准，数据化呈现工作成效，凝聚核心人才。">
-                </li>
-                <li style="width: 100%;">
-                <img class="icon" src="assets/dooimg/home_icon5.svg" alt="沟通汇报">
-                <h3 class="txt-5001822 card-ul-item-h3 mb-12">沟通汇报</h3>
-                <i class="txt-4001524 card-ul-item-txt mb-16">基于工作场景的即时通讯和分享，以实现更好的团队沟通。</i>
-                <img class="card-pic" id="home_pic6" src="assets/dooimg/light/zh_home_pic6.png" alt="基于工作场景的即时通讯和分享，以实现更好的团队沟通。">
-                </li>
-            </ul>
-            </div>
+        <div class="card-con-layout">
+          <ul class="card-ul">
+            <li class="card-ul-item active">
+              <img
+                class="icon"
+                src="assets/dooimg/home_icon1.svg"
+                alt="项目管理"
+              />
+              <div class="card-ul-item-unfolded">
+                <h3 class="txt-5002025 card-ul-item-h3">项目管理</h3>
+                <img
+                  class="arrows"
+                  src="assets/dooimg/vector.svg"
+                  alt="项目管理"
+                />
+              </div>
+              <div class="card-ul-item-expand">
+                <div class="card-ul-item-expand-tit">
+                  <h3 class="txt-5002025 card-ul-item-h3">项目管理</h3>
+                  <img
+                    class="arrows"
+                    src="assets/dooimg/vector.svg"
+                    alt="支持多种项目管理模式，适用于各种规模和类型的项目管理，实时掌控项目进度，优化工作流程。"
+                  />
+                </div>
+                <i class="txt-4001624 card-ul-item-txt" style="--delay: 0.3s"
+                  >支持多种项目管理模式，适用于各种规模和类型的项目管理，实时掌控项目进度，优化工作流程。</i
+                >
+              </div>
+            </li>
+            <li class="card-ul-item">
+              <img
+                class="icon"
+                src="assets/dooimg/home_icon2.svg"
+                alt="团队协作"
+              />
+              <div class="card-ul-item-unfolded">
+                <h3 class="txt-5002025 card-ul-item-h3">团队协作</h3>
+                <img
+                  class="arrows"
+                  src="assets/dooimg/vector.svg"
+                  alt="团队协作"
+                />
+              </div>
+              <div class="card-ul-item-expand">
+                <div class="card-ul-item-expand-tit">
+                  <h3 class="txt-5002025 card-ul-item-h3">团队协作</h3>
+                  <img
+                    class="arrows"
+                    src="assets/dooimg/vector.svg"
+                    alt="提供丰富实用的在线文档协作工具，方便团队成员之间的沟通和协作，提高工作效率。"
+                  />
+                </div>
+                <i class="txt-4001624 card-ul-item-txt" style="--delay: 0.3s"
+                  >提供丰富实用的在线文档协作工具，方便团队成员之间的沟通和协作，提高工作效率。</i
+                >
+              </div>
+            </li>
+            <li class="card-ul-item">
+              <img
+                class="icon"
+                src="assets/dooimg/home_icon3.svg"
+                alt="任务协同"
+              />
+              <div class="card-ul-item-unfolded">
+                <h3 class="txt-5002025 card-ul-item-h3">任务协同</h3>
+                <img
+                  class="arrows"
+                  src="assets/dooimg/vector.svg"
+                  alt="任务协同"
+                />
+              </div>
+              <div class="card-ul-item-expand">
+                <div class="card-ul-item-expand-tit">
+                  <h3 class="txt-5002025 card-ul-item-h3">任务协同</h3>
+                  <img
+                    class="arrows"
+                    src="assets/dooimg/vector.svg"
+                    alt="以任务化的方式让团队的工作井井有条，保证团队协作的高效性和任务分工的明确性。"
+                  />
+                </div>
+                <i class="txt-4001624 card-ul-item-txt" style="--delay: 0.3s"
+                  >以任务化的方式让团队的工作井井有条，保证团队协作的高效性和任务分工的明确性。</i
+                >
+              </div>
+            </li>
+            <li class="card-ul-item">
+              <img
+                class="icon"
+                src="assets/dooimg/home_icon4.svg"
+                alt="绩效衡量"
+              />
+              <div class="card-ul-item-unfolded">
+                <h3 class="txt-5002025 card-ul-item-h3">绩效衡量</h3>
+                <img
+                  class="arrows"
+                  src="assets/dooimg/vector.svg"
+                  alt="绩效衡量"
+                />
+              </div>
+              <div class="card-ul-item-expand">
+                <div class="card-ul-item-expand-tit">
+                  <h3 class="txt-5002025 card-ul-item-h3">绩效衡量</h3>
+                  <img
+                    class="arrows"
+                    src="assets/dooimg/vector.svg"
+                    alt="建立可量化的评价标准，数据化呈现工作成效，凝聚核心人才。"
+                  />
+                </div>
+                <i class="txt-4001624 card-ul-item-txt" style="--delay: 0.3s"
+                  >建立可量化的评价标准，数据化呈现工作成效，凝聚核心人才。</i
+                >
+              </div>
+            </li>
+            <li class="card-ul-item">
+              <img
+                class="icon"
+                src="assets/dooimg/home_icon5.svg"
+                alt="沟通汇报"
+              />
+              <div class="card-ul-item-unfolded">
+                <h3 class="txt-5002025 card-ul-item-h3">沟通汇报</h3>
+                <img
+                  class="arrows"
+                  src="assets/dooimg/vector.svg"
+                  alt="沟通汇报"
+                />
+              </div>
+              <div class="card-ul-item-expand">
+                <div class="card-ul-item-expand-tit">
+                  <h3 class="txt-5002025 card-ul-item-h3">沟通汇报</h3>
+                  <img
+                    class="arrows"
+                    src="assets/dooimg/vector.svg"
+                    alt="基于工作场景的即时通讯及共享，实现更好的团队沟通。"
+                  />
+                </div>
+                <i class="txt-4001624 card-ul-item-txt" style="--delay: 0.3s"
+                  >基于工作场景的即时通讯及共享，实现更好的团队沟通。</i
+                >
+              </div>
+            </li>
+          </ul>
+          <img
+            class="card-pic"
+            id="home_pic2"
+            src="assets/dooimg/light/zh_home_pic2.png"
+            alt="支持多种项目管理模式，适用于各种规模和类型的项目管理，实时掌控项目进度，优化工作流程。"
+          />
         </div>
+      </div>
+      <div class="card-con-768">
+        <h1 class="txt-5002228 card-h1 mb-32">使用场景</h1>
+        <div class="card-con-layout">
+          <ul class="card-768-ul">
+            <li style="width: 100%">
+              <img
+                class="icon"
+                src="assets/dooimg/home_icon1.svg"
+                alt="项目管理"
+              />
+              <h3 class="txt-5001822 card-ul-item-h3 mb-12">项目管理</h3>
+              <i class="txt-4001524 card-ul-item-txt mb-16"
+                >支持多种项目管理模式，适用于各种规模和类型的项目管理，实时掌控项目进度，优化工作流程。</i
+              >
+              <img
+                class="card-pic mb-40"
+                id="home_pic2"
+                src="assets/dooimg/light/zh_home_pic2.png"
+                alt="支持多种项目管理模式，适用于各种规模和类型的项目管理，实时掌控项目进度，优化工作流程。"
+              />
+            </li>
+            <li style="width: 100%">
+              <img
+                class="icon"
+                src="assets/dooimg/home_icon2.svg"
+                alt="团队协作"
+              />
+              <h3 class="txt-5001822 card-ul-item-h3 mb-12">团队协作</h3>
+              <i class="txt-4001524 card-ul-item-txt mb-16"
+                >提供丰富实用的在线文档协作工具，方便团队成员之间的沟通和协作，提高工作效率。</i
+              >
+              <img
+                class="card-pic mb-40"
+                id="home_pic3"
+                src="assets/dooimg/light/zh_home_pic3.png"
+                alt="提供丰富实用的在线文档协作工具，方便团队成员之间的沟通和协作，提高工作效率。"
+              />
+            </li>
+            <li style="width: 100%">
+              <img
+                class="icon"
+                src="assets/dooimg/home_icon3.svg"
+                alt="任务协同"
+              />
+              <h3 class="txt-5001822 card-ul-item-h3 mb-12">任务协同</h3>
+              <i class="txt-4001524 card-ul-item-txt mb-16"
+                >以任务化的方式让团队的工作井井有条，保证团队协作的高效性和任务分工的明确性。</i
+              >
+              <img
+                class="card-pic mb-40"
+                id="home_pic4"
+                src="assets/dooimg/light/zh_home_pic4.png"
+                alt="以任务化的方式让团队的工作井井有条，保证团队协作的高效性和任务分工的明确性。"
+              />
+            </li>
+            <li style="width: 100%">
+              <img
+                class="icon"
+                src="assets/dooimg/home_icon4.svg"
+                alt="绩效衡量"
+              />
+              <h3 class="txt-5001822 card-ul-item-h3 mb-12">绩效衡量</h3>
+              <i class="txt-4001524 card-ul-item-txt mb-16"
+                >建立可量化的评价标准，数据化呈现工作成效，凝聚核心人才。</i
+              >
+              <img
+                class="card-pic mb-40"
+                id="home_pic5"
+                src="assets/dooimg/light/zh_home_pic5.png"
+                alt="建立可量化的评价标准，数据化呈现工作成效，凝聚核心人才。"
+              />
+            </li>
+            <li style="width: 100%">
+              <img
+                class="icon"
+                src="assets/dooimg/home_icon5.svg"
+                alt="沟通汇报"
+              />
+              <h3 class="txt-5001822 card-ul-item-h3 mb-12">沟通汇报</h3>
+              <i class="txt-4001524 card-ul-item-txt mb-16"
+                >基于工作场景的即时通讯和分享，以实现更好的团队沟通。</i
+              >
+              <img
+                class="card-pic"
+                id="home_pic6"
+                src="assets/dooimg/light/zh_home_pic6.png"
+                alt="基于工作场景的即时通讯和分享，以实现更好的团队沟通。"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-
 
     <!-- 下载量指标
     ============================================= -->
     <div class="fun-facts-area bg-gray default-padding">
-        <!-- Shape -->
-        <div class="shape" style="background-image: url(assets/img/shape/43.png);"></div>
-        <!-- Shape -->
-        <div class="container">
-            <div class="item-inner">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="fun-fact">
-                            <div class="counter">
-                                <div class="timer" data-to="18" data-speed="2000">18</div>
-                                <div class="operator">W</div>
-                            </div>
-                            <span class="medium">APP下载量</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="fun-fact">
-                            <div class="counter">
-                                <div class="timer" data-to="98" data-speed="2000">98</div>
-                                <div class="operator">%</div>
-                            </div>
-                            <span class="medium">好评率</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="fun-fact">
-                            <div class="counter">
-                                <div class="timer" data-to="12" data-speed="2000">5</div>
-                                <div class="operator">K</div>
-                            </div>
-                            <span class="medium">试用企业</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="fun-fact">
-                            <div class="counter">
-                                <div class="timer" data-to="5" data-speed="2000">5</div>
-                                <div class="operator">W</div>
-                            </div>
-                            <span class="medium">活跃用户</span>
-                        </div>
-                    </div>
+      <!-- Shape -->
+      <div
+        class="shape"
+        style="background-image: url(assets/img/shape/43.png)"
+      ></div>
+      <!-- Shape -->
+      <div class="container">
+        <div class="item-inner">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 item">
+              <div class="fun-fact">
+                <div class="counter">
+                  <div class="timer" data-to="18" data-speed="2000">18</div>
+                  <div class="operator">W</div>
                 </div>
+                <span class="medium">APP下载量</span>
+              </div>
             </div>
+            <div class="col-lg-3 col-md-6 item">
+              <div class="fun-fact">
+                <div class="counter">
+                  <div class="timer" data-to="98" data-speed="2000">98</div>
+                  <div class="operator">%</div>
+                </div>
+                <span class="medium">好评率</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 item">
+              <div class="fun-fact">
+                <div class="counter">
+                  <div class="timer" data-to="12" data-speed="2000">5</div>
+                  <div class="operator">K</div>
+                </div>
+                <span class="medium">试用企业</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 item">
+              <div class="fun-fact">
+                <div class="counter">
+                  <div class="timer" data-to="5" data-speed="2000">5</div>
+                  <div class="operator">W</div>
+                </div>
+                <span class="medium">活跃用户</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- End Fun Factor Area -->
 
-
-
     <!--为什么选择我们区域 -->
     <div id="process" class="process-area default-padding">
-        <div class="container">
-            <div class="row align-center">
-                <article class="choose">
-                <div class="choose-con">
-                    <ul class="choose-con-ul mb-32">
-                    <li class="choose-con-item">
-                        <h1 class="txt-5004455 choose-con-tit">
-                        为什么选择我们
-                        <svg class="arcs2" width="312" height="23" viewBox="0 0 312 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path class="home_arc" opacity="0.5" d="M3 20C47.4822 7.1714 170.957 -10.7886 309 20" stroke="#8BCF70" stroke-width="6" stroke-linecap="round" stroke-dasharray="600, 600" stroke-dashoffset="0"/>
-                        </svg>
-                        </h1>
-                    </li>
-                    <li class="choose-con-item hover home-animate-box" style="--delay: 0s;">
-                        <h1 class="txt-7003645 serial-number mb-24">01</h1>
-                        <h5 class="txt-5002025 mb-16 choose-con-item-h5">高效便捷的团队沟通工具</h5>
-                        <h6 class="txt-4001624 choose-con-item-h6">针对项目和任务建立群组，工作问题可及时沟通，促进团队快速协作，提高团队工作效率。</h6>
-                    </li>
-                    <li class="choose-con-item hover home-animate-box" style="--delay: 0.1s;">
-                        <h1 class="txt-7003645 serial-number mb-24">02</h1>
-                        <h5 class="txt-5002025 mb-16 choose-con-item-h5">强大易用的协同创作云文档</h5>
-                        <h6 class="txt-4001624 choose-con-item-h6">汇集文档、电子表格、思维笔记等多种在线工具，汇聚企业知识资源于一处，支持多人实时协同编辑，让团队协作更便捷。</h6>
-                    </li>
-                    </ul>
-                    <ul class="choose-con-ul">
-                    <li class="choose-con-item hover home-animate-box" style="--delay: 0.2s;">
-                        <h1 class="txt-7003645 serial-number mb-24">03</h1>
-                        <h5 class="txt-5002025 mb-16 choose-con-item-h5">便捷多样的项目管理模版</h5>
-                        <h6 class="txt-4001624 choose-con-item-h6">模版满足多种团队协作场景，同时支持自定义模版，满足团队个性化场景管理需求，可直观的查看项目的进展情况，团队协作更方便。</h6>
-                    </li>
-                    <li class="choose-con-item hover home-animate-box" style="--delay: 0.3s;">
-                        <h1 class="txt-7003645 serial-number mb-24">04</h1>
-                        <h5 class="txt-5002025 mb-16 choose-con-item-h5">清晰直观的任务日历</h5>
-                        <h6 class="txt-4001624 choose-con-item-h6">通过灵活的任务日历，轻松安排每一天的日程，把任务拆解到每天，让工作目标更清晰，时间分配更合理。</h6>
-                    </li>
-                    <li class="choose-con-item hover home-animate-box" style="--delay: 0.4s;">
-                        <h1 class="txt-7003645 serial-number mb-24">05</h1>
-                        <h5 class="txt-5002025 mb-16 choose-con-item-h5">支持多平台应用</h5>
-                        <h6 class="txt-4001624 choose-con-item-h6">多平台应用支持，随时随地追踪项目进度，同时让你在工作中每一个步骤都能拥有更高效愉悦的体验。</h6>
-                    </li>
-                    </ul>
-                </div>
-                <div class="choose-con-768">
-                    <h1 class="txt-5004455 choose-con-tit">为什么选择我们<img class="arcs2" src="assets/dooimg/arcs.svg" alt="为什么选择我们"></h1>
-                    <div class="choose-con-768-box">
-                    <ul class="choose-con-768-ul">
-                        <li class="choose-con-768-item">
-                        <h1 class="txt-7003240 serial-number mb-24">01</h1>
-                        <h5 class="txt-5002025 mb-16 choose-con-item-h5">高效便捷的团队沟通工具</h5>
-                        <h6 class="txt-4001524 choose-con-item-h6">针对项目和任务建立群组，工作问题可及时沟通，促进团队快速协作，提高团队工作效率。</h6>
-                        </li>
-                        <li class="choose-con-768-item">
-                        <h1 class="txt-7003240 serial-number mb-24">02</h1>
-                        <h5 class="txt-5002025 mb-16 choose-con-item-h5">强大易用的协同创作云文档</h5>
-                        <h6 class="txt-4001524 choose-con-item-h6">汇集文档、电子表格、思维笔记等多种在线工具，汇聚企业知识资源于一处，支持多人实时协同编辑，让团队协作更便捷。</h6>
-                        </li>
-                        <li class="choose-con-768-item">
-                        <h1 class="txt-7003240 serial-number mb-24">03</h1>
-                        <h5 class="txt-5002025 mb-16 choose-con-item-h5">便捷多样的项目管理模版</h5>
-                        <h6 class="txt-4001524 choose-con-item-h6">模版满足多种团队协作场景，同时支持自定义模版，满足团队个性化场景管理需求，可直观的查看项目的进展情况，团队协作更方便。</h6>
-                        </li>
-                        <li class="choose-con-768-item">
-                        <h1 class="txt-7003240 serial-number mb-24">04</h1>
-                        <h5 class="txt-5002025 mb-16 choose-con-item-h5">清晰直观的任务日历</h5>
-                        <h6 class="txt-4001524 choose-con-item-h6">通过灵活的任务日历，轻松安排每一天的日程，把任务拆解到每天，让工作目标更清晰，时间分配更合理。</h6>
-                        </li>
-                        <li class="choose-con-768-item">
-                        <h1 class="txt-7003240 serial-number mb-24">05</h1>
-                        <h5 class="txt-5002025 mb-16 choose-con-item-h5">支持多平台应用</h5>
-                        <h6 class="txt-4001524 choose-con-item-h6">多平台应用支持，随时随地追踪项目进度，同时让你在工作中每一个步骤都能拥有更高效愉悦的体验。</h6>
-                        </li>
-                    </ul>
-                    </div>
-                    <ul id="card-indicators">
-                    <li class="card-indicators-item active"></li>
-                    <li class="card-indicators-item"></li>
-                    <li class="card-indicators-item"></li>
-                    <li class="card-indicators-item"></li>
-                    <li class="card-indicators-item"></li>
-                    </ul>
-                </div>
-                </article>
+      <div class="container">
+        <div class="row align-center">
+          <article class="choose">
+            <div class="choose-con">
+              <ul class="choose-con-ul mb-32">
+                <li class="choose-con-item">
+                  <h1 class="txt-5004455 choose-con-tit">
+                    为什么选择我们
+                    <svg
+                      class="arcs2"
+                      width="312"
+                      height="23"
+                      viewBox="0 0 312 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        class="home_arc"
+                        opacity="0.5"
+                        d="M3 20C47.4822 7.1714 170.957 -10.7886 309 20"
+                        stroke="#8BCF70"
+                        stroke-width="6"
+                        stroke-linecap="round"
+                        stroke-dasharray="600, 600"
+                        stroke-dashoffset="0"
+                      />
+                    </svg>
+                  </h1>
+                </li>
+                <li
+                  class="choose-con-item hover home-animate-box"
+                  style="--delay: 0s"
+                >
+                  <h1 class="txt-7003645 serial-number mb-24">01</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    高效便捷的团队沟通工具
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    针对项目和任务建立群组，工作问题可及时沟通，促进团队快速协作，提高团队工作效率。
+                  </h6>
+                </li>
+                <li
+                  class="choose-con-item hover home-animate-box"
+                  style="--delay: 0.1s"
+                >
+                  <h1 class="txt-7003645 serial-number mb-24">02</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    强大易用的协同创作云文档
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    汇集文档、电子表格、思维笔记等多种在线工具，汇聚企业知识资源于一处，支持多人实时协同编辑，让团队协作更便捷。
+                  </h6>
+                </li>
+              </ul>
+              <ul class="choose-con-ul">
+                <li
+                  class="choose-con-item hover home-animate-box"
+                  style="--delay: 0.2s"
+                >
+                  <h1 class="txt-7003645 serial-number mb-24">03</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    便捷多样的项目管理模版
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    模版满足多种团队协作场景，同时支持自定义模版，满足团队个性化场景管理需求，可直观的查看项目的进展情况，团队协作更方便。
+                  </h6>
+                </li>
+                <li
+                  class="choose-con-item hover home-animate-box"
+                  style="--delay: 0.3s"
+                >
+                  <h1 class="txt-7003645 serial-number mb-24">04</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    清晰直观的任务日历
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    通过灵活的任务日历，轻松安排每一天的日程，把任务拆解到每天，让工作目标更清晰，时间分配更合理。
+                  </h6>
+                </li>
+                <li
+                  class="choose-con-item hover home-animate-box"
+                  style="--delay: 0.4s"
+                >
+                  <h1 class="txt-7003645 serial-number mb-24">05</h1>
+                  <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                    支持多平台应用
+                  </h5>
+                  <h6 class="txt-4001624 choose-con-item-h6">
+                    多平台应用支持，随时随地追踪项目进度，同时让你在工作中每一个步骤都能拥有更高效愉悦的体验。
+                  </h6>
+                </li>
+              </ul>
             </div>
+            <div class="choose-con-768">
+              <h1 class="txt-5004455 choose-con-tit">
+                为什么选择我们<img
+                  class="arcs2"
+                  src="assets/dooimg/arcs.svg"
+                  alt="为什么选择我们"
+                />
+              </h1>
+              <div class="choose-con-768-box">
+                <ul class="choose-con-768-ul">
+                  <li class="choose-con-768-item">
+                    <h1 class="txt-7003240 serial-number mb-24">01</h1>
+                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                      高效便捷的团队沟通工具
+                    </h5>
+                    <h6 class="txt-4001524 choose-con-item-h6">
+                      针对项目和任务建立群组，工作问题可及时沟通，促进团队快速协作，提高团队工作效率。
+                    </h6>
+                  </li>
+                  <li class="choose-con-768-item">
+                    <h1 class="txt-7003240 serial-number mb-24">02</h1>
+                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                      强大易用的协同创作云文档
+                    </h5>
+                    <h6 class="txt-4001524 choose-con-item-h6">
+                      汇集文档、电子表格、思维笔记等多种在线工具，汇聚企业知识资源于一处，支持多人实时协同编辑，让团队协作更便捷。
+                    </h6>
+                  </li>
+                  <li class="choose-con-768-item">
+                    <h1 class="txt-7003240 serial-number mb-24">03</h1>
+                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                      便捷多样的项目管理模版
+                    </h5>
+                    <h6 class="txt-4001524 choose-con-item-h6">
+                      模版满足多种团队协作场景，同时支持自定义模版，满足团队个性化场景管理需求，可直观的查看项目的进展情况，团队协作更方便。
+                    </h6>
+                  </li>
+                  <li class="choose-con-768-item">
+                    <h1 class="txt-7003240 serial-number mb-24">04</h1>
+                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                      清晰直观的任务日历
+                    </h5>
+                    <h6 class="txt-4001524 choose-con-item-h6">
+                      通过灵活的任务日历，轻松安排每一天的日程，把任务拆解到每天，让工作目标更清晰，时间分配更合理。
+                    </h6>
+                  </li>
+                  <li class="choose-con-768-item">
+                    <h1 class="txt-7003240 serial-number mb-24">05</h1>
+                    <h5 class="txt-5002025 mb-16 choose-con-item-h5">
+                      支持多平台应用
+                    </h5>
+                    <h6 class="txt-4001524 choose-con-item-h6">
+                      多平台应用支持，随时随地追踪项目进度，同时让你在工作中每一个步骤都能拥有更高效愉悦的体验。
+                    </h6>
+                  </li>
+                </ul>
+              </div>
+              <ul id="card-indicators">
+                <li class="card-indicators-item active"></li>
+                <li class="card-indicators-item"></li>
+                <li class="card-indicators-item"></li>
+                <li class="card-indicators-item"></li>
+                <li class="card-indicators-item"></li>
+              </ul>
+            </div>
+          </article>
         </div>
+      </div>
     </div>
     <!-- End Process Area -->
 
     <!-- 团队介绍
     ============================================= -->
     <div id="team" class="team-area bg-gray default-padding bottom-less">
-        <!-- Shape -->
-        <div class="fixed-shape" style="background-image: url(assets/img/shape/5.png);"></div>
-        <!-- End Shape -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Innovative Team</h2>
-                        <div class="devider"></div>
-                        <p>
-                            Outlived no dwelling denoting in peculiar as he believed. Behaviour excellent middleton be as it curiosity departure ourselves very extreme future. 
-                        </p>
-                    </div>
-                </div>
+      <!-- Shape -->
+      <div
+        class="fixed-shape"
+        style="background-image: url(assets/img/shape/5.png)"
+      ></div>
+      <!-- End Shape -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="site-heading text-center">
+              <h2>各行各业的标准化解决方案</h2>
+              <div class="devider"></div>
             </div>
+          </div>
         </div>
-        <div class="container">
-            <div class="team-items">
-                <div class="row">
-                    <!-- Single Item -->
-                    <div class="single-item col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x900.png" alt="Thumb">
-                                <div class="social">
-                                    <input type="checkbox" id="toggle" class="share-toggle" hidden>
-                                    <label for="toggle" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>Ahem Natasha</h4>
-                                <span>Operations officer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="single-item col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x900.png" alt="Thumb">
-                                <div class="social">
-                                    <input type="checkbox" id="toggle2" class="share-toggle" hidden>
-                                    <label for="toggle2" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>Devid mark</h4>
-                                <span>Graphic designer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="single-item col-lg-4 col-md-6">
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/800x900.png" alt="Thumb">
-                                <div class="social">
-                                    <input type="checkbox" id="toggle3" class="share-toggle" hidden>
-                                    <label for="toggle3" class="share-button">
-                                        <i class="fas fa-plus"></i>
-                                    </label>
-                                    <a href="#" class="share-icon facebook">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                    <a href="#" class="share-icon twitter">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                    <a href="#" class="share-icon instagram">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info">
-                                <h4>Brave Hammam</h4>
-                                <span>Web developer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
+      </div>
+      <div class="container">
+        <div class="team-items">
+          <div data-page-id="Solution" data-elem-id="qnOHwEShPd">
+            <!-- <h1 data-elem-id="tS6sJ5OD9N">各行各业都有解决方案</h1> -->
+            <div data-elem-id="YnjfD1TjE9" class="">
+              <div data-elem-id="e3kUCT9TED" class="">
+                <div
+                  data-elem-id="KJ1PpiCk9L"
+                  class=""
+                  style="
+                    background: url('https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/9fdf2600cc3044c88eae8ac215d0f587~tplv-jbbdkfciu3-png:0:0.png')
+                      center 0% / cover no-repeat;
+                  "
+                >
+                  <a data-elem-id="e6TXmMHvxM" class=""
+                    ><h1 data-elem-id="tO1Q9XiHeo">制造</h1>
+                    <div data-elem-id="JIb586HsQ6" class="desc-wrapper">
+                      <span data-elem-id="NhZowSFUcg" class="option_desc"
+                        >拉通全链路生产协作</span
+                      >
+                      <img
+                        class=""
+                        data-elem-id="cahlPEeiPM"
+                        src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/792122ec04df4ac8b1772b882e85f1d6~tplv-jbbdkfciu3-png:0:0.png"
+                        loading="lazy"
+                      /></div
+                  ></a>
                 </div>
+                <div
+                  data-elem-id="KJ1PpiCk9L"
+                  class=""
+                  style="
+                    background: url('https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/c0b9119906e744a3a85d65b2e3e6183f~tplv-jbbdkfciu3-png:0:0.png')
+                      center 0% / cover no-repeat;
+                  "
+                >
+                  <a data-elem-id="e6TXmMHvxM" class=""
+                    ><h1 data-elem-id="tO1Q9XiHeo">金融</h1>
+                    <div data-elem-id="JIb586HsQ6" class="desc-wrapper">
+                      <span data-elem-id="NhZowSFUcg" class="option_desc"
+                        >极致业技融合深入数字化</span
+                      ><img
+                        class=""
+                        data-elem-id="cahlPEeiPM"
+                        src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/792122ec04df4ac8b1772b882e85f1d6~tplv-jbbdkfciu3-png:0:0.png"
+                        loading="lazy"
+                      /></div
+                  ></a>
+                </div>
+                <div
+                  data-elem-id="KJ1PpiCk9L"
+                  class=""
+                  style="
+                    background: url('https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/fd0ef0f297d64f82b60af2198d3f7d77~tplv-jbbdkfciu3-png:0:0.png')
+                      center 0% / cover no-repeat;
+                  "
+                >
+                  <a data-elem-id="e6TXmMHvxM" class=""
+                    ><h1 data-elem-id="tO1Q9XiHeo">消费</h1>
+                    <div data-elem-id="JIb586HsQ6" class="desc-wrapper">
+                      <span data-elem-id="NhZowSFUcg" class="option_desc"
+                        >撬动消费增长新杠杆</span
+                      ><img
+                        class=""
+                        data-elem-id="cahlPEeiPM"
+                        src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/792122ec04df4ac8b1772b882e85f1d6~tplv-jbbdkfciu3-png:0:0.png"
+                        loading="lazy"
+                      /></div
+                  ></a>
+                </div>
+                <div
+                  data-elem-id="KJ1PpiCk9L"
+                  class=""
+                  style="
+                    background: url('https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/c0cac64d3a2d46cfaa50c9261ec40dc3~tplv-jbbdkfciu3-png:0:0.png')
+                      center 0% / cover no-repeat;
+                  "
+                >
+                  <a data-elem-id="e6TXmMHvxM" class=""
+                    ><h1 data-elem-id="tO1Q9XiHeo">汽车</h1>
+                    <div data-elem-id="JIb586HsQ6" class="desc-wrapper">
+                      <span data-elem-id="NhZowSFUcg" class="option_desc"
+                        >打造车企数字化智慧底座</span
+                      ><img
+                        class=""
+                        data-elem-id="cahlPEeiPM"
+                        src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/792122ec04df4ac8b1772b882e85f1d6~tplv-jbbdkfciu3-png:0:0.png"
+                        loading="lazy"
+                      /></div
+                  ></a>
+                </div>
+                <div
+                  data-elem-id="KJ1PpiCk9L"
+                  class=""
+                  style="
+                    background: url('https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/1c1b7fa58ae04801886d132f51f41b34~tplv-jbbdkfciu3-png:0:0.png')
+                      center 0% / cover no-repeat;
+                  "
+                >
+                  <a data-elem-id="e6TXmMHvxM" class=""
+                    ><h1 data-elem-id="tO1Q9XiHeo">软件</h1>
+                    <div data-elem-id="JIb586HsQ6" class="desc-wrapper">
+                      <span data-elem-id="NhZowSFUcg" class="option_desc"
+                        >实现持续打造优秀软件</span
+                      ><img
+                        class=""
+                        data-elem-id="cahlPEeiPM"
+                        src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/792122ec04df4ac8b1772b882e85f1d6~tplv-jbbdkfciu3-png:0:0.png"
+                        loading="lazy"
+                      /></div
+                  ></a>
+                </div>
+              </div>
             </div>
+            <a
+              data-elem-id="Yu4hqCMEmi"
+              class=""
+              href="/collection/industry_solutions?from=homepage_industry_solutions"
+              target="_blank"
+              ><span data-elem-id="Xe1I8g1u9D">了解更多服务内容和方案</span
+              ><img
+                class=""
+                data-elem-id="B9VU5KAyec"
+                src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/b3496bf009de4ad9a149a13b9ffc14b3~tplv-jbbdkfciu3-png:0:0.png"
+                loading="lazy"
+            /></a>
+          </div>
         </div>
+      </div>
     </div>
     <!-- End Team Area -->
 
     <!-- 价格配置
     ============================================= -->
     <div id="pricing" class="pricing-area bg-dark default-padding bottom-less">
-        <div class="shape" style="background-image: url(assets/img/shape/16.png);"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Our Packages</h2>
-                        <div class="devider"></div>
-                        <p>
-                            Outlived no dwelling denoting in peculiar as he believed. Behaviour excellent middleton be as it curiosity departure ourselves very extreme future. 
-                        </p>
-                    </div>
-                </div>
+      <div
+        class="shape"
+        style="background-image: url(assets/img/shape/16.png)"
+      ></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="site-heading text-center">
+              <h2>套餐配置</h2>
+              <div class="devider"></div>
+              <p>
+                全部功能无限制，可根据各行各业的实际硬件需求组合选配
+              </p>
             </div>
+          </div>
         </div>
-        <div class="container">
-            <div class="pricing-items">
-                <div class="row">
-                    <!-- Single Itme -->
-                    <div class="col-lg-4 col-md-6 single-item">
-                        <div class="pricing-item">
-                            <i class="fas fa-rocket"></i>
-                            <div class="pricing-header">
-                                <h4>Free trial</h4>
-                                <span>Save 25%</span>
-                            </div>
-                            <div class="price">
-                                <h2><sup>$</sup>0 <sub>/ Monthly</sub></h2>
-                            </div>
-                            <a class="btn circle btn-theme-effect btn-sm" href="#">Purchase Plan</a>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Demo file</li>
-                                <li><i class="fas fa-check"></i> 10 GB Dedicated Hosting free</li>
-                                <li><i class="fas fa-check"></i> Lifetime free Support</li>
-                                <li><i class="fas fa-check"></i> SEO Optimized</li>
-                                <li><i class="fas fa-times"></i> Live Support</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Single Itme -->
-
-                    <!-- Single Itme -->
-                    <div class="col-lg-4 col-md-6 single-item">
-                        <div class="pricing-item">
-                            <i class="fas fa-gem"></i>
-                            <div class="pricing-header">
-                                <h4>Regular</h4>
-                                <span>Save 35%</span>
-                            </div>
-                            <div class="price">
-                                <h2><sup>$</sup>29 <sub>/ Monthly</sub></h2>
-                            </div>
-                            <a class="btn circle btn-theme-effect btn-sm" href="#">Purchase Plan</a>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Demo file</li>
-                                <li><i class="fas fa-check"></i> 10 GB Dedicated Hosting free</li>
-                                <li><i class="fas fa-check"></i> Lifetime free Support</li>
-                                <li><i class="fas fa-check"></i> SEO Optimized</li>
-                                <li><i class="fas fa-times"></i> Live Support</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Single Itme -->
-
-                    <!-- Single Itme -->
-                    <div class="col-lg-4 col-md-6 single-item">
-                        <div class="pricing-item">
-                            <i class="fa fa-chart-pie"></i>
-                            <div class="pricing-header">
-                                <h4>Extended</h4>
-                                <span>Save 49%</span>
-                            </div>
-                            <div class="price">
-                                <h2><sup>$</sup>59 <sub>/ Monthly</sub></h2>
-                            </div>
-                            <a class="btn circle btn-theme-effect btn-sm" href="#">Purchase Plan</a>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Demo file</li>
-                                <li><i class="fas fa-check"></i> 10 GB Dedicated Hosting free</li>
-                                <li><i class="fas fa-check"></i> Lifetime free Support</li>
-                                <li><i class="fas fa-check"></i> SEO Optimized</li>
-                                <li><i class="fas fa-check"></i> Live Support</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Single Itme -->
+      </div>
+      <div class="container">
+        <div class="pricing-items">
+          <div class="row">
+            <!-- Single Itme -->
+            <div class="col-lg-4 col-md-6 single-item">
+              <div class="pricing-item">
+                <i class="fas fa-rocket"></i>
+                <div class="pricing-header">
+                  <h4>入门款</h4>
+                  <span>oServer1000</span>
                 </div>
+                <div class="price">
+                  <h2><sup>￥</sup>8,000 <sub>/ 台 (起)</sub></h2>
+                </div>
+                <a class="btn circle btn-theme-effect btn-sm" href="#"
+                  >查看详情</a
+                >
+                <ul>
+                  <li><i class="fas fa-check"></i>20核40线程,64G内存,8T硬盘(HDD),512G系统盘(NVME)</li>
+                  <li><i class="fas fa-check"></i>可支撑50人内的团队平稳工作3年</li>
+                  <li><i class="fas fa-check"></i>单节点软件授权包</li>
+                  <li><i class="fas fa-check"></i>1年软件升级维护服务</li>
+                  <li><i class="fas fa-check"></i>5小时内响应客户</li>
+                </ul>
+              </div>
             </div>
+            <!-- End Single Itme -->
+
+            <!-- Single Itme -->
+            <div class="col-lg-4 col-md-6 single-item">
+              <div class="pricing-item">
+                <i class="fas fa-gem"></i>
+                <div class="pricing-header">
+                  <h4>热门款</h4>
+                  <span>oServer2000</span>
+                </div>
+                <div class="price">
+                  <h2><sup>￥</sup>16,000 <sub>/ 台(起)</sub></h2>
+                </div>
+                <a class="btn circle btn-theme-effect btn-sm" href="#"
+                  >查看详情</a
+                >
+                <ul>
+                  <li><i class="fas fa-check"></i>20核40线程x2,128G内存,16T硬盘(HDD),512G系统盘(NVME)</li>
+                  <li><i class="fas fa-check"></i>可支撑100人内的团队平稳工作3年</li>
+                  <li><i class="fas fa-check"></i>单节点软件授权包</li>
+                  <li><i class="fas fa-check"></i>1年软件升级维护服务</li>
+                  <li><i class="fas fa-check"></i>5小时内响应客户</li>
+                  <li><i class="fas fa-check"></i>接收软件功能定制</li>
+                </ul>
+              </div>
+            </div>
+            <!-- End Single Itme -->
+
+            <!-- Single Itme -->
+            <div class="col-lg-4 col-md-6 single-item">
+              <div class="pricing-item">
+                <i class="fa fa-chart-pie"></i>
+                <div class="pricing-header">
+                  <h4>定制款</h4>
+                  <span>oServer4000</span>
+                </div>
+                <div class="price">
+                  <h2><sup>￥</sup>50,000 <sub>(起)</sub></h2>
+                </div>
+                <a class="btn circle btn-theme-effect btn-sm" href="#"
+                  >联系我们</a
+                >
+                <ul>
+                  <li><i class="fas fa-check"></i>客户选配硬件平台</li>
+                  <li><i class="fas fa-check"></i>购买多节点软件授权包</li>
+                  <li><i class="fas fa-check"></i>1年软件升级维护服务</li>
+                  <li><i class="fas fa-check"></i>5小时内响应客户</li>
+                  <li><i class="fas fa-check"></i>接收软件功能定制</li>
+                </ul>
+              </div>
+            </div>
+            <!-- End Single Itme -->
+          </div>
         </div>
+      </div>
     </div>
     <!-- End Pricing Area -->
 
     <!-- 客户背书
     ============================================= -->
     <div class="testimonials-area bg-gray carousel-shadow default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>What people say</h2>
-                        <div class="devider"></div>
-                        <p>
-                            Outlived no dwelling denoting in peculiar as he believed. Behaviour excellent middleton be as it curiosity departure ourselves very extreme future. 
-                        </p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="site-heading text-center">
+              <h2>聪明的企业都在用一体机</h2>
+              <div class="devider"></div>
             </div>
+          </div>
         </div>
-        <div class="container">
-            <div class="testimonial-items">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="testimonial-carousel owl-carousel owl-theme">
-                            <!-- Single Item -->
-                            <div class="item">
-                                <div class="provider">
-                                    <img src="assets/img/100x100.png" alt="Author">
-                                    <div class="content">
-                                        <h4>Devid Warner</h4>
-                                        <span> Managing Director</span>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <p>
-                                        Otherwise concealed favourite frankness on be at dashwoods mentions defective at. Sympathize interested simplicity at do projecting care effect increasing terminated. As edward settle limits at in. Chamber reaching abnormally nothing be accesing to the point. very extreme future. 
-                                    </p>
-                                </div>
-                                <div class="reason">
-                                    <h5>Design Quality</h5>
-                                    <div class="rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
-                            <div class="item">
-                                <div class="provider">
-                                    <img src="assets/img/100x100.png" alt="Author">
-                                    <div class="content">
-                                        <h4>Pruasuj Natasha</h4>
-                                        <span> Theme Developer</span>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <p>
-                                        Otherwise concealed favourite frankness on be at dashwoods mentions defective at. Sympathize interested simplicity at do projecting care effect increasing terminated. As edward settle limits at in. Chamber reaching abnormally nothing be accesing to the point. very extreme future.  
-                                    </p>
-                                </div>
-                                <div class="reason">
-                                    <h5>Customer Support</h5>
-                                    <div class="rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                            <!-- Single Item -->
-                            <div class="item">
-                                <div class="provider">
-                                    <img src="assets/img/100x100.png" alt="Author">
-                                    <div class="content">
-                                        <h4>Koyel Anderson</h4>
-                                        <span> Project Manager</span>
-                                    </div>
-                                </div>
-                                <div class="info">
-                                    <p>
-                                        Otherwise concealed favourite frankness on be at dashwoods mentions defective at. Sympathize interested simplicity at do projecting care effect increasing terminated. As edward settle limits at in. Chamber reaching abnormally nothing be accesing to the point. very extreme future.  
-                                    </p>
-                                </div>
-                                <div class="reason">
-                                    <h5>User Friendly</h5>
-                                    <div class="rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Item -->
-                        </div>
+      </div>
+      <div class="container">
+        <div class="testimonial-items">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="testimonial-carousel owl-carousel owl-theme">
+                <!-- Single Item -->
+                <div class="item">
+                  <div class="provider">
+                    <img src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/872310b8bab64da687800aa8e8b3915e~tplv-jbbdkfciu3-png:0:0.png" alt="Author" />
+                    <div class="content">
+                      <h4>向飞</h4>
+                      <span> 三一集团副总裁 人力资源总监</span>
                     </div>
+                  </div>
+                  <div class="info">
+                    <p>
+                      三一非常重视员工体，odeadline倡导“愉悦是一种生产力”。在odeadline也是我们整个公司唯一全员 5 万人使用的应用。
+                    </p>
+                  </div>
+                  <div class="reason">
+                    <h5>公司5w名员工使用</h5>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
                 </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="item">
+                  <div class="provider">
+                    <img src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/354d523aa9c242d19d062c9619f66b03~tplv-jbbdkfciu3-png:0:0.png" alt="Author" />
+                    <div class="content">
+                      <h4>袁泽陆</h4>
+                      <span>夸父炸串 创始人</span>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <p>
+                      在夸父炸串全链路数字化体系中，我们助odeadline形成对各关键点过程管理的强管控，完成最后一公里的信息触达。
+                    </p>
+                  </div>
+                  <div class="reason">
+                    <h5>每年节省人工成本4000w</h5>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="item">
+                  <div class="provider">
+                    <img src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/8915ee98e37d42bd9d538b58a3853ae6~tplv-jbbdkfciu3-png:0:0.png" alt="Author" />
+                    <div class="content">
+                      <h4>周浩运</h4>
+                      <span> 海底捞首席技术官</span>
+                    </div>
+                  </div>
+                  <div class="info">
+                    <p>
+                      用odeadline仅半年多的时间，我们能明显感受到用先进工具对所有员工的赋。odeadline服务好海底捞，海底捞服务好顾客。
+                    </p>
+                  </div>
+                  <div class="reason">
+                    <h5>自搭建400+企业应用</h5>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Single Item -->
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- End Testimonials Area -->
 
-    <!-- 试用
-    ============================================= -->
-    <div class="free-trial-area text-light text-center default-padding-bottom">
-        <div class="container">
-           <div class="trial-box" style="background-image: url(assets/img/shape/8.png);">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <h5>Free Trial</h5>
-                        <h2>Start Your 14 Days Free <br> Trials Today!</h2>
-                        <form action="#">
-                            <input type="email" placeholder="Your Email" class="form-control" name="email">
-                            <button type="submit"> Free Trial</button>  
-                        </form>
-                    </div>
-                </div>
-                <div class="illustration">
-                    <img src="assets/img/illustration/1.png" alt="illustration">
-                </div>
-           </div>
-        </div>
-    </div>
-    <!-- End Free Trial -->
 
     <!-- 页脚
     ============================================= -->
     <footer class="bg-dark text-light">
+      <div class="container">
+        <div class="f-items default-padding">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 item">
+              <div class="f-item about">
+                <img src="assets/img/odlogo-light.png" alt="Logo" />
+                <br>
+                  聪明的企业都在用<br/>
+                  简单易用好用、数据落地,不受大厂数据绑架、一次买断使用权,不支付订阅费、内网穿透,移动协同办公，全部功能集成在一体机，接上网线就能用!
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 item">
+              <div class="f-item link">
+                <h4 class="widget-title">快速链接</h4>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fas fa-angle-right"></i> 在线体验</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-angle-right"></i> 联系我们</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fas fa-angle-right"></i> 渠道伙伴</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 item">
+              <div class="f-item link">
+                <h4 class="widget-title">社区</h4>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fas fa-angle-right"></i> 开源项目</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fas fa-angle-right"></i> 营销软件</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-angle-right"></i> 论坛</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 item">
+              <div class="f-item contact-widget">
+                <h4 class="widget-title">联系地址</h4>
+                <p>深圳市·南山区向南社区爱心大厦901室</p>
+                <div class="address">
+                  <ul>
+                    <li>
+                      <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                      </div>
+                      <div class="content">
+                        <strong>邮件:</strong>
+                        <a href="mailto:742694959@qq.com"
+                          >742694959@qq.com</a
+                        >
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <i class="fas fa-phone"></i>
+                      </div>
+                      <div class="content">
+                        <strong>电话:</strong>
+                        <a href="tel:15876845191">+86 15876845191</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start Footer Bottom -->
+      <div class="footer-bottom">
         <div class="container">
-            <div class="f-items default-padding">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 item">
-                        <div class="f-item about">
-                            <img src="assets/img/logo-light.png" alt="Logo">
-                            <p>
-                                Excellence decisively nay man yet impression for contrasted remarkably. There spoke happy for you are out. Fertile how old address did showing.
-                            </p>
-                            <form action="#">
-                                <input type="email" placeholder="Your Email" class="form-control" name="email">
-                                <button type="submit"> <i class="arrow_right"></i></button>  
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 item">
-                        <div class="f-item link">
-                            <h4 class="widget-title">Quick LInk</h4>
-                            <ul>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Home</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> About us</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Compnay History</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Features</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Blog Page</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Login</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="f-item link">
-                            <h4 class="widget-title">Community</h4>
-                            <ul>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Career</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Leadership</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Strategy</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Services</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> History</a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fas fa-angle-right"></i> Components</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 item">
-                        <div class="f-item contact-widget">
-                            <h4 class="widget-title">Contact Info</h4>
-                            <p>
-                                5919 Trussville Crossings Pkwy, new Dusting town, Austria
-                            </p>
-                            <div class="address">
-                                <ul>
-                                    <li>
-                                        <div class="icon">
-                                            <i class="fas fa-envelope"></i>
-                                        </div>
-                                        <div class="content">
-                                            <strong>Email:</strong>
-                                            <a href="mailto:info@validtheme.com">info@validtheme.com</a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <i class="fas fa-phone"></i>
-                                        </div>
-                                        <div class="content">
-                                            <strong>Phone:</strong>
-                                            <a href="tel:2151234567">+123 34598768</a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <p>
+                &copy; Copyright 2021. All Rights Reserved by
+                深圳市自由联合网络科技有限公司
+              </p>
             </div>
-        </div>
-        <!-- Start Footer Bottom -->
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <p>&copy; Copyright 2021. All Rights Reserved by <a href="http://www.bootstrapmb.com">bootstrapMB</a></p>
-                    </div>
-                    <div class="col-lg-6 text-end link">
-                        <ul>
-                            <li>
-                                <a href="#">Terms</a>
-                            </li>
-                            <li>
-                                <a href="#">Privacy</a>
-                            </li>
-                            <li>
-                                <a href="#">Support</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-lg-6 text-end link">
+              <ul>
+                <li>
+                  <a href="#">隐私政策</a>
+                </li>
+                <li>
+                  <a href="#">技术支持</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
-        <!-- End Footer Bottom -->
+      </div>
+      <!-- End Footer Bottom -->
     </footer>
     <!-- End Footer -->
 
@@ -1275,222 +1801,240 @@
     <script src="assets/js/validnavs.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/common.js"></script>
-<script>
-/* 功能卡片切换函数 */
-const tabs = document.querySelector('.card-ul');
-const funImg = document.querySelector('#home_pic2');
-const tabItems = tabs.querySelectorAll('.card-ul-item');
-const lang = localStorage.getItem('lang')
-tabs.addEventListener('click', function (event) {
-  const theme = localStorage.getItem('theme')
-  const clickedItem = event.target.closest('.card-ul-item');
-  if (clickedItem && !clickedItem.classList.contains('active')) {
-    // 切换激活状态
-    for (let [index,value] of tabItems.entries()) {
-      if(value === clickedItem){
-        funImg.setAttribute('src', `assets/dooimg/${theme?theme:'light'}/${lang}_home_pic${index+2}.png`)
-      }
-      value.classList.toggle('active', value === clickedItem);
-    }
-  }
-});
-/* 为什么选择我们卡片切换函数 */
-const cardCarousel = document.querySelector('.choose-con-768');
-const targetDiv = document.querySelector('.choose-con-768-ul')
-const cardItems = cardCarousel.querySelectorAll('.choose-con-768-item');
-const indicators = cardCarousel.querySelectorAll('.card-indicators-item');
-const choose768box  = document.querySelector('.choose-con-768-box')
-let innerWidth = window.innerWidth
-let activeIndex = 0;
-let intervalId;
-let timerId2;
-choose768box.style.minHeight = targetDiv.clientHeight + 20  + 'px'
-for (let i = 0; i < indicators.length; i++) {
-  indicators[i].addEventListener('click', () => {
-    indicators[activeIndex].classList.remove('active');
-    activeIndex = i
-    targetDiv.style.left = -innerWidth * i  + 'px'
-    indicators[i].classList.add('active');
-    stopInterval()
-    timerId2 = setTimeout(()=>{
-      startInterval()
-      clearTimeout(timerId2)
-    },1500)
-  });
-}
-const intervalFunc1 = () => {
-  activeIndex -= 1
-  targetDiv.style.left = -innerWidth * activeIndex  + 'px'
-  indicators[activeIndex].classList.add('active');
-  indicators[activeIndex+1].classList.remove('active');
-};
-const intervalFunc2 = () => {
-  activeIndex += 1
-  targetDiv.style.left = -activeIndex * innerWidth + 'px'
-  indicators[activeIndex].classList.add('active');
-  indicators[activeIndex-1].classList.remove('active');
-};
-const positioning = ()=>{
-  activeIndex = 0
-  targetDiv.style.left = 0 + 'px'
-  targetDiv.style.transition = 'none';
-  indicators[0].classList.add('active');
-  indicators[4].classList.remove('active');
-}
-const swapFormat = ()=> {
-  if(activeIndex >= 4){
-    positioning()
-  }else{
-    targetDiv.style.transition = 'all cubic-bezier(0, -0.26, 0.13, 1.04) .8s';
-    intervalFunc2()
-  }
-}
-const startInterval = ()=> {
-  intervalId = setInterval(swapFormat, 3000)
-}
-startInterval()
-const stopInterval = ()=> {
-  clearInterval(intervalId);
-}
-let startX = 0;
-let startY = 0;
-let isSwipe = false; // 添加一个状态标志
-targetDiv.addEventListener('touchstart', function(event) {
-  startX = event.touches[0].pageX;
-  startY = event.touches[0].pageY;
-  isSwipe = false; // 每次按下时重置状态标志
-});
-targetDiv.addEventListener('touchmove', function(event) {
-  if (!isSwipe) { // 如果没有有效的滑动操作，则执行滑动逻辑
-    let endX = event.targetTouches[0].pageX;
-    let endY = event.targetTouches[0].pageY;
-    let distanceX = endX - startX;
-    let distanceY = endY - startY;
-    if (Math.abs(distanceX) > Math.abs(distanceY)) {
-      if (distanceX > 0) {
-        if(activeIndex != 0){
-          intervalFunc1()
-        }
-      } else {
-        if(activeIndex < 4){
-          intervalFunc2()
-        }
-      }
-      isSwipe = true; // 标记当前有一个有效的滑动操作
-      stopInterval()
-    }
-    startX = endX;
-    startY = endY;
-  }
-});
-targetDiv.addEventListener('touchend', function(event) {
-  isSwipe = false; // 松开时重置状态标志
-  startInterval()
-});
-
-/* 屏幕滚动到可视区域执行动画 */
-const boxes = document.querySelectorAll('.home-animate-box');
-const arcs = document.querySelector('.home_arc');
-  let timerId = null
-  const animateBoxes = ()=> {
-    boxes.forEach(box => {
-      const boxTop = box.getBoundingClientRect().top;
-      const boxBottom = box.getBoundingClientRect().bottom;
-      if (boxTop < window.innerHeight && boxBottom > 0) {
-        box.classList.add('animate');
-        arcs.classList.add('arc-animate');
-        timerId = setTimeout(()=>{
-          box.classList.remove('home-animate-box');
-          timerId = null
-        },1300)
-      }
-    });
-  }
-  window.addEventListener('scroll', animateBoxes);
-  animateBoxes();
-</script>
-
-<script>
-    /* 产品卡片切换函数 */
-    const ptabs = document.querySelector('.prooduct-con');
-    const ptabItems = ptabs.querySelectorAll('.prooduct-list-item');
-    const pcardItems = ptabs.querySelectorAll('.details');
-    const icons = ptabs.querySelectorAll('.icon');
-    const content = document.querySelector('.content');
-    const firstIcon = ptabs.querySelector('.first-icon');
-    const firstTxt = ptabs.querySelector('.first-txt');
-    let currentIndex = 0;
-    ptabs.addEventListener('click', function (event) {
-      const clickedItem = event.target.closest('.prooduct-list-item');
-      if (clickedItem && !clickedItem.classList.contains('active')) {
-        // 切换激活状态
-        for (let [index,value] of ptabItems.entries()) {
-          if(value === clickedItem){
-            icons[index].setAttribute('src', `assets/dooimg/product_icons${index}_h.svg`)
-            pcardItems[index].classList.add('active');
-            if(index != 0 || index != 8){
-              pcardItems[currentIndex].classList.remove('active');
+    <script>
+      /* 功能卡片切换函数 */
+      const tabs = document.querySelector(".card-ul");
+      const funImg = document.querySelector("#home_pic2");
+      const tabItems = tabs.querySelectorAll(".card-ul-item");
+      const lang = localStorage.getItem("lang");
+      tabs.addEventListener("click", function (event) {
+        const theme = localStorage.getItem("theme");
+        const clickedItem = event.target.closest(".card-ul-item");
+        if (clickedItem && !clickedItem.classList.contains("active")) {
+          // 切换激活状态
+          for (let [index, value] of tabItems.entries()) {
+            if (value === clickedItem) {
+              funImg.setAttribute(
+                "src",
+                `assets/dooimg/${theme ? theme : "light"}/${lang}_home_pic${
+                  index + 2
+                }.png`
+              );
             }
-            currentIndex = index
-          }else{
-            icons[index].setAttribute('src', `assets/dooimg/product_icons${index}.svg`)
+            value.classList.toggle("active", value === clickedItem);
           }
-          value.classList.toggle('active', value === clickedItem);
-        }
-      }
-    });
-    /* 768px下产品卡片切换函数 */
-    let productNameObj = {
-      0: '共同创造',
-      1: '即时通讯',
-      2: '项目管理',
-      3: '任务仪表板',
-      4: '任务日历',
-      5: '机器人助理',
-      6: '团队管理',
-      7: '端到端加密',
-      8: '多平台',
-    }
-    const prevHandle  = ()=>{
-      if(currentIndex != 0) {
-        currentIndex =  currentIndex - 1
-        cardItems[currentIndex + 1].classList.remove('active');
-        firstIcon.setAttribute('src', `assets/dooimg/product_icons${currentIndex + 1}_h.svg`)
-        firstTxt.innerHTML = productNameObj[currentIndex]
-        cardItems[currentIndex].classList.add('active');
-      }
-    }
-    const nextHandle  = ()=>{
-      if(currentIndex != 8){
-        currentIndex =  currentIndex + 1
-        cardItems[currentIndex - 1].classList.remove('active');
-        firstIcon.setAttribute('src', `assets/dooimg/product_icons${currentIndex - 1}_h.svg`)
-        firstTxt.innerHTML = productNameObj[currentIndex]
-        cardItems[currentIndex].classList.add('active');
-      }
-    }
-    /* 滑动到可视区域执行动画 */
-    const pboxes = document.querySelectorAll('.product-animate-box');
-    const boxes2 = document.querySelectorAll('.product-animate-box2');
-    const panimateBoxes = ()=> {
-      pboxes.forEach(box => {
-        const boxTop = box.getBoundingClientRect().top;
-        const boxBottom = box.getBoundingClientRect().bottom;
-        if (boxTop < window.innerHeight && boxBottom > 0) {
-          box.classList.add('animate');
         }
       });
-      boxes2.forEach(box1 => {
-        const boxTop2 = box1.getBoundingClientRect().top;
-        const boxBottom2 = box1.getBoundingClientRect().bottom;
-        if (boxTop2 < window.innerHeight && boxBottom2 > 0) {
-          box1.classList.add('animate');
+      /* 为什么选择我们卡片切换函数 */
+      const cardCarousel = document.querySelector(".choose-con-768");
+      const targetDiv = document.querySelector(".choose-con-768-ul");
+      const cardItems = cardCarousel.querySelectorAll(".choose-con-768-item");
+      const indicators = cardCarousel.querySelectorAll(".card-indicators-item");
+      const choose768box = document.querySelector(".choose-con-768-box");
+      let innerWidth = window.innerWidth;
+      let activeIndex = 0;
+      let intervalId;
+      let timerId2;
+      choose768box.style.minHeight = targetDiv.clientHeight + 20 + "px";
+      for (let i = 0; i < indicators.length; i++) {
+        indicators[i].addEventListener("click", () => {
+          indicators[activeIndex].classList.remove("active");
+          activeIndex = i;
+          targetDiv.style.left = -innerWidth * i + "px";
+          indicators[i].classList.add("active");
+          stopInterval();
+          timerId2 = setTimeout(() => {
+            startInterval();
+            clearTimeout(timerId2);
+          }, 1500);
+        });
+      }
+      const intervalFunc1 = () => {
+        activeIndex -= 1;
+        targetDiv.style.left = -innerWidth * activeIndex + "px";
+        indicators[activeIndex].classList.add("active");
+        indicators[activeIndex + 1].classList.remove("active");
+      };
+      const intervalFunc2 = () => {
+        activeIndex += 1;
+        targetDiv.style.left = -activeIndex * innerWidth + "px";
+        indicators[activeIndex].classList.add("active");
+        indicators[activeIndex - 1].classList.remove("active");
+      };
+      const positioning = () => {
+        activeIndex = 0;
+        targetDiv.style.left = 0 + "px";
+        targetDiv.style.transition = "none";
+        indicators[0].classList.add("active");
+        indicators[4].classList.remove("active");
+      };
+      const swapFormat = () => {
+        if (activeIndex >= 4) {
+          positioning();
+        } else {
+          targetDiv.style.transition =
+            "all cubic-bezier(0, -0.26, 0.13, 1.04) .8s";
+          intervalFunc2();
+        }
+      };
+      const startInterval = () => {
+        intervalId = setInterval(swapFormat, 3000);
+      };
+      startInterval();
+      const stopInterval = () => {
+        clearInterval(intervalId);
+      };
+      let startX = 0;
+      let startY = 0;
+      let isSwipe = false; // 添加一个状态标志
+      targetDiv.addEventListener("touchstart", function (event) {
+        startX = event.touches[0].pageX;
+        startY = event.touches[0].pageY;
+        isSwipe = false; // 每次按下时重置状态标志
+      });
+      targetDiv.addEventListener("touchmove", function (event) {
+        if (!isSwipe) {
+          // 如果没有有效的滑动操作，则执行滑动逻辑
+          let endX = event.targetTouches[0].pageX;
+          let endY = event.targetTouches[0].pageY;
+          let distanceX = endX - startX;
+          let distanceY = endY - startY;
+          if (Math.abs(distanceX) > Math.abs(distanceY)) {
+            if (distanceX > 0) {
+              if (activeIndex != 0) {
+                intervalFunc1();
+              }
+            } else {
+              if (activeIndex < 4) {
+                intervalFunc2();
+              }
+            }
+            isSwipe = true; // 标记当前有一个有效的滑动操作
+            stopInterval();
+          }
+          startX = endX;
+          startY = endY;
         }
       });
-    }
-    window.addEventListener('scroll', panimateBoxes);
-    panimateBoxes();
-  </script>
+      targetDiv.addEventListener("touchend", function (event) {
+        isSwipe = false; // 松开时重置状态标志
+        startInterval();
+      });
 
-</body>
+      /* 屏幕滚动到可视区域执行动画 */
+      const boxes = document.querySelectorAll(".home-animate-box");
+      const arcs = document.querySelector(".home_arc");
+      let timerId = null;
+      const animateBoxes = () => {
+        boxes.forEach((box) => {
+          const boxTop = box.getBoundingClientRect().top;
+          const boxBottom = box.getBoundingClientRect().bottom;
+          if (boxTop < window.innerHeight && boxBottom > 0) {
+            box.classList.add("animate");
+            arcs.classList.add("arc-animate");
+            timerId = setTimeout(() => {
+              box.classList.remove("home-animate-box");
+              timerId = null;
+            }, 1300);
+          }
+        });
+      };
+      window.addEventListener("scroll", animateBoxes);
+      animateBoxes();
+    </script>
+
+    <script>
+      /* 产品卡片切换函数 */
+      const ptabs = document.querySelector(".prooduct-con");
+      const ptabItems = ptabs.querySelectorAll(".prooduct-list-item");
+      const pcardItems = ptabs.querySelectorAll(".details");
+      const icons = ptabs.querySelectorAll(".icon");
+      const content = document.querySelector(".content");
+      const firstIcon = ptabs.querySelector(".first-icon");
+      const firstTxt = ptabs.querySelector(".first-txt");
+      let currentIndex = 0;
+      ptabs.addEventListener("click", function (event) {
+        const clickedItem = event.target.closest(".prooduct-list-item");
+        if (clickedItem && !clickedItem.classList.contains("active")) {
+          // 切换激活状态
+          for (let [index, value] of ptabItems.entries()) {
+            if (value === clickedItem) {
+              icons[index].setAttribute(
+                "src",
+                `assets/dooimg/product_icons${index}_h.svg`
+              );
+              pcardItems[index].classList.add("active");
+              if (index != 0 || index != 8) {
+                pcardItems[currentIndex].classList.remove("active");
+              }
+              currentIndex = index;
+            } else {
+              icons[index].setAttribute(
+                "src",
+                `assets/dooimg/product_icons${index}.svg`
+              );
+            }
+            value.classList.toggle("active", value === clickedItem);
+          }
+        }
+      });
+      /* 768px下产品卡片切换函数 */
+      let productNameObj = {
+        0: "共同创造",
+        1: "即时通讯",
+        2: "项目管理",
+        3: "任务仪表板",
+        4: "任务日历",
+        5: "机器人助理",
+        6: "团队管理",
+        7: "端到端加密",
+        8: "多平台",
+      };
+      const prevHandle = () => {
+        if (currentIndex != 0) {
+          currentIndex = currentIndex - 1;
+          cardItems[currentIndex + 1].classList.remove("active");
+          firstIcon.setAttribute(
+            "src",
+            `assets/dooimg/product_icons${currentIndex + 1}_h.svg`
+          );
+          firstTxt.innerHTML = productNameObj[currentIndex];
+          cardItems[currentIndex].classList.add("active");
+        }
+      };
+      const nextHandle = () => {
+        if (currentIndex != 8) {
+          currentIndex = currentIndex + 1;
+          cardItems[currentIndex - 1].classList.remove("active");
+          firstIcon.setAttribute(
+            "src",
+            `assets/dooimg/product_icons${currentIndex - 1}_h.svg`
+          );
+          firstTxt.innerHTML = productNameObj[currentIndex];
+          cardItems[currentIndex].classList.add("active");
+        }
+      };
+      /* 滑动到可视区域执行动画 */
+      const pboxes = document.querySelectorAll(".product-animate-box");
+      const boxes2 = document.querySelectorAll(".product-animate-box2");
+      const panimateBoxes = () => {
+        pboxes.forEach((box) => {
+          const boxTop = box.getBoundingClientRect().top;
+          const boxBottom = box.getBoundingClientRect().bottom;
+          if (boxTop < window.innerHeight && boxBottom > 0) {
+            box.classList.add("animate");
+          }
+        });
+        boxes2.forEach((box1) => {
+          const boxTop2 = box1.getBoundingClientRect().top;
+          const boxBottom2 = box1.getBoundingClientRect().bottom;
+          if (boxTop2 < window.innerHeight && boxBottom2 > 0) {
+            box1.classList.add("animate");
+          }
+        });
+      };
+      window.addEventListener("scroll", panimateBoxes);
+      panimateBoxes();
+    </script>
+  </body>
 </html>
