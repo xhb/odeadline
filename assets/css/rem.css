@@ -1,6 +1,6 @@
 @media screen and (max-width: 1280px){
   .head-con,.companies-con,.card,.choose,.footer-con,.prooduct-con,.manage-con,.performance-con,.app-con,.nav-layout,.update-con,.logs-con,.help-con,.plans-con,.company-profile-con,.scenario-app-con,.footer-t-con,.topics-con,.collaboration{
-    width: calc(100vw - 72px) !important;
+    /* width: calc(100vw - 72px) !important; */
     padding-left: 36px !important;
     padding-right: 36px !important;
   }
@@ -225,9 +225,11 @@
   }
 }
 @media screen and (max-width: 768px){
-  img{
-    max-width: 100% !important;
+
+  .prev_next {
+    max-width: inherit !important;
   }
+
   .filings{
     font-size: 14px !important;
   }
@@ -237,13 +239,8 @@
   section{
     background: transparent !important;
   }
-  #logo{
-    height: 28px !important;
-  }
-  .btn{
-    font-size: 15px !important;
-    line-height: 18px !important;
-  }
+
+
   .companies-ul .companies-ul-item{
     height: 36px !important;
   }
@@ -259,8 +256,8 @@
   .nav{
     height: 60px !important;
   }
-  .head-con,.card,.choose,.footer-con,.companies-con,.manage-con,.performance-con,.app-con,.team-con,.update-con,.logs-con,.help-con,.plans-con,.prooduct-con,.scenario-app-con,.footer-t-con,.nav-layout,.company-profile-con,.collaboration{
-    width: calc(100vw - 40px) !important;
+  .head-con,.usecard,.choose,.footer-con,.companies-con,.manage-con,.performance-con,.app-con,.team-con,.update-con,.logs-con,.help-con,.plans-con,.prooduct-con,.scenario-app-con,.footer-t-con,.nav-layout,.company-profile-con,.collaboration{
+    /* width: calc(100vw - 40px) !important; */
     padding: 0 20px !important;
   }
   .company-profile-r{
@@ -737,9 +734,7 @@
   .bg-style{
     background: transparent !important;
   }
-  .logo{
-    width: 32px !important;
-  }
+
   .dootask{
     margin-left: 12px !important;
   }

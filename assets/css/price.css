@@ -245,3 +245,19 @@
   border-radius: 8px;
   padding: 5px;
 }
+
+@media screen and (max-width: 768px) {
+
+  .price-title {
+    margin-top: 108px;
+  }
+
+  .plans {
+    display: none;
+  }
+
+  .BulletBox1 {
+    width: 400px;
+  }
+
+}

@@ -38,7 +38,7 @@ if(!localStorageTheme){
 function setTheme(theme) {
   const root = document.documentElement;
   const lang = localStorage.getItem('lang')
-  changeImageSrc('#logo', `${theme}/logo.svg`)
+  // changeImageSrc('#logo', `${theme}/logo.svg`)
   changeImageSrc('#home_pic', `${theme}/${lang}_home_pic1.png`)
   changeImageSrc('#home_pic2', `${theme}/${lang}_home_pic2.png`)
   changeImageSrc('#home_pic3', `${theme}/${lang}_home_pic3.png`)
@@ -126,12 +126,12 @@ const changeMenu = (type)=>{
   submenuPopDom.style.display = 'none';
   dropDownSvgDom.style.transform = ''
 }
-document.addEventListener('click', function (event) {
-  if (!event.target.closest('#support-txt')) {
-    submenuPopDom.style.display = 'none';
-    dropDownSvgDom.style.transform = ''
-  }
-});
+// document.addEventListener('click', function (event) {
+//   if (!event.target.closest('#support-txt')) {
+//     submenuPopDom.style.display = 'none';
+//     dropDownSvgDom.style.transform = ''
+//   }
+// });
 /* 语言切换函数 */
 const langPopDom = document.querySelector('#lang-pop');
 const shouLangPopHandle = ()=>{
@@ -159,11 +159,11 @@ const changeLanguage = (type)=>{
   localStorage.setItem('lang',type)
   drawer.classList.remove('open-drawer');
 }
-document.addEventListener('click', function (event) {
-  if (!event.target.closest('#lang-img')) {
-    langPopDom.style.display = 'none';
-  }
-});
+// document.addEventListener('click', function (event) {
+//   if (!event.target.closest('#lang-img')) {
+//     langPopDom.style.display = 'none';
+//   }
+// });
 /* 当屏幕宽度低于768px时显示菜单的抽屉的相关操作逻辑 */
 // menuBtn.addEventListener('click', () => {
 //   drawer.classList.add('open-drawer');
@@ -172,11 +172,12 @@ document.addEventListener('click', function (event) {
 const closeDraweHandle = ()=>{
   drawer.classList.remove('open-drawer');
 }
-window.addEventListener('click', (e) => {
-  if (!drawer.contains(e.target) && e.target !== menuBtn) {
-    drawer.classList.remove('open-drawer');
-  }
-});
+// window.addEventListener('click', (e) => {
+//   if (!drawer.contains(e.target) && e.target !== menuBtn) {
+//     drawer.classList.remove('open-drawer');
+//   }
+// });
+
 const expandMenuHandle = (val)=>{
   const actives = document.querySelector(`#${val}`);
   const dropDownSvgDom = document.querySelector(`#drawer-down-${val}-svg`);

@@ -176,4 +176,13 @@ table td[data-v-08fb7986] {
   font-size: 14px;
 }
 
+@media screen and (max-width: 768px) {
 
+  .partner-title {
+    margin-top: 108px;
+  }
+
+  article[data-v-659c04dc] {
+    margin: 0 5%;
+  }
+}
