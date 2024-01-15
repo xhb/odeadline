@@ -90,6 +90,7 @@ Table of contents
 	--bg-gradient: linear-gradient(45deg, #02ebad 0%, #5a57fb 50%);
 	--border-color: #E7E9E4;
 	--bg-fa-color: #fafafa;
+	--txt-theme-color: #5138ee;
 }
 
 
@@ -2216,7 +2217,7 @@ body,
 .about-area .thumb img:nth-child(2) {
 	position: absolute;
 	right: 0;
-	bottom: -80px;
+	top: -34px;
 }
 
 .about-area .about-items .info {
